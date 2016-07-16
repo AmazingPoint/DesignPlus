@@ -8,7 +8,9 @@ app = Flask(__name__)
 
 #http://api.com/designs?p=1&prep=5
 #http://api.com/designs?p=1
+
 @app.route('/designs')
+@allow_cross_domain
 def getAPage():
     page = 1
     pre_number_page = 5

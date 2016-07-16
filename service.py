@@ -14,7 +14,6 @@ class Master:
             self.rdb = Redis(host='localhost', port=6379, db=0)
         if self.rdb.dbsize() == 0:
             self.pushTodoList(SOURCE_HTML)
-            #self.pushTodoList(SOURCE_PPT)
 
     def pushTodoList(self, url_list):
         for url in url_list:
@@ -107,6 +106,4 @@ if __name__ == '__main__':
     master = Master()
     lissen_url = None
     worker = Worker()
-    lissener = Thread(target=workLissener, args=(master, worker,))
-    lissener.start()
     work(master)

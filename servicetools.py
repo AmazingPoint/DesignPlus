@@ -24,6 +24,8 @@ class Browser:
 
     def queryResult(self, url):
         htmldoc = pq(self.renderPage(url))
+        if htmldoc is not None:
+            self.restart()
         if 'doooor' in url:
             return doooor(htmldoc, url)
         if 'chinaz' in url:
@@ -36,6 +38,7 @@ class Browser:
             self.browser.quit()
             self.browser = None
         self.__init__()
+
 
 
 def doooor(htmldoc, url):
@@ -60,7 +63,7 @@ def doooor(htmldoc, url):
 def chinaz(htmldoc, url):
     linksobj = htmldoc('#container .box div a')
     links = []
-    if linksobj is not None:
+    if len(linksobj) != 0 :
         for linkobj in linksobj:
             links.append('http://sc.chinaz.com' + pq(linkobj).attr('href'))
     if len(links) == 0:
@@ -70,7 +73,7 @@ def chinaz(htmldoc, url):
         if download is not None:
             download = 'http://sc.chinaz.com' + download.strip()
         return {'title': title, 'preview': preview, 'download': download}
-    next_link_obj = None('.nextpage')
+    next_link_obj = htmldoc('.nextpage')
     if len(next_link_obj) != 0:
         next_link = pq(next_link_obj).attr('href')
         next_link = next_link.replace('HTML', 'index')
