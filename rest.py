@@ -9,6 +9,13 @@ app = Flask(__name__)
 #http://api.com/designs?p=1&prep=5
 #http://api.com/designs?p=1
 
+
+@app.route('/')
+@allow_cross_domain
+def index():
+    return '目前可以调用的地址：<br/> http://api.datastack.cc/designs<br>method: GET<br/>param: p=<int>&prep=<int></br>解释：p为请求的页数，prep为每页资源数量'
+
+
 @app.route('/designs')
 @allow_cross_domain
 def getAPage():
