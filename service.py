@@ -4,12 +4,14 @@ from redis import Redis
 from servicetools import SOURCE_HTML, Browser
 from threading import Thread
 import time
+import logging
 
 
 class Master:
     rdb = None
 
     def __init__(self):
+        self.initLogging()
         if self.rdb is None:
             self.rdb = Redis(host='localhost', port=6379, db=0)
         if self.rdb.dbsize() == 0:
@@ -21,6 +23,7 @@ class Master:
 
     def pubTodoList(self):
         url = self.rdb.lrange('wait', 0, 0)
+        logging.info('start to do: %s' % url)
         if len(url) == 0:
             return None
         return url[0]
@@ -45,13 +48,19 @@ class Master:
             pass
 
     def finish(self, url):
-            self.popTodoList()
-            self.pushDoneList(url)
+        self.popTodoList()
+        self.pushDoneList(url)
+        wait_number = self.rdb.llen('wait')
+        done_number = self.rdb.llen('done')
+        logging.info('end of: %s' % url)
+        logging.info('%d waited: %d done'%(wait_number, done_number))
 
-    def showProgress(self):
-        print ('wait : %d --- done : %d') %\
-            (self.rdb.llen('wait'), \
-            self.rdb.llen('done'))
+    def initLogging(self):
+        logging.basicConfig(level=logging.DEBUG,
+                    format='%(levelname)s %(asctime)s %(message)s',
+                    datefmt='%a, %d %b %Y %H:%M:%S',
+                    filename='service_work.log',
+                    filemod='w')
     
         
 
@@ -77,7 +86,6 @@ class Worker:
 def work(master):
     url = master.pubTodoList()
     while url is not None:
-        master.showProgress()
         done_list = master.getDoneList()
         if url in done_list:
             print url + ' repeat! breaked!'
@@ -86,8 +94,8 @@ def work(master):
             result = worker.doJob(url)
             master.pushData(result)
             master.finish(url)
-        url = master.pubTodoList()
         lissen_url = url
+        url = master.pubTodoList()
 
 
 def workLissener(master, worker):
