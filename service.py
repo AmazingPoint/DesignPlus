@@ -38,7 +38,6 @@ class Master:
         return self.rdb.lrange('done', 0, -1)
 
     def pushData(self, result):
-        print type(result)
         if isinstance(result, list):
             self.pushTodoList(result)
         if isinstance(result, dict):
@@ -88,7 +87,6 @@ def work(master):
     while url is not None:
         done_list = master.getDoneList()
         if url in done_list:
-            print url + ' repeat! breaked!'
             master.popTodoList()
         else:
             result = worker.doJob(url)
@@ -105,7 +103,6 @@ def workLissener(master, worker):
         if lissen_url == master.pubTodoList():
             count = count + 1
         if count == 2:
-            print '该地指已经尝试%d次，怀疑线程假死，现在重启：' % count
             woker.restart()
             count = 0 
             
