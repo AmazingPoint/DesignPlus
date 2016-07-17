@@ -15,8 +15,11 @@
 
 #### API
 `rest.py` flask入口文件
+
 API基于flask，需要安装flask 0.10.0+
-API访问地址:(http://api.datastack.cc)[http://api.datastack.cc]
+
+API访问地址:[没有appkey限制，请不要恶意攻击](http://api.datastack.cc)
+
 #### 后台服务，数据爬取工作
 `mining.py` 执行数据挖掘工作
 #### 使用方法
