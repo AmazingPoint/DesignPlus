@@ -67,5 +67,5 @@ def monster(htmldoc, url):
     if len(links) == 0:
         title = pq(htmldoc('.page-heading h1')).text()
         preview = pq(htmldoc('.buttons-wrapper a')[0]).attr('href')
-        download =
+        download = pq(htmldoc('.buttons-wrapper a')[1]).attr('href')
         return {'title': title, 'preview': preview, 'download': download}
