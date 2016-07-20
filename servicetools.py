@@ -42,13 +42,13 @@ class Browser:
             如果不是在服务器上，使用chrome则不存在这个问题
             该方法节约了内存但是很大程度上的降低了效率'''
         if self.browser is not None:
-            self.quit()
+            self.close()
             self.browser = None
         self.__init__()
 
-    def quit(self):
-        '''推出浏览器'''
-        self.browser.quit()
+    def close(self):
+        '''退出浏览器'''
+        self.browser.close()
 
 
 def monster(htmldoc, url):
