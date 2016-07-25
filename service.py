@@ -109,9 +109,9 @@ class Worker:
                 logging.info('this url is done befor work! passed!')
                 master.popTodoList()
             else:
-                master.popTodoList()
                 result = self.doJob(url)
                 master.pushData(result)
+                master.popTodoList()
                 master.finish(url)
             url = master.pubTodoList()
         self.browser.quit()

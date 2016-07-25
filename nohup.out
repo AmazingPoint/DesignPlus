@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "mining.py", line 23, in <module>
+    worker.work(master)
+  File "/home/andy/workspace/DesignPlus/service.py", line 112, in work
+    result = self.doJob(url)
+  File "/home/andy/workspace/DesignPlus/service.py", line 96, in doJob
+    result = self.browser.queryResult(url)
+  File "/home/andy/workspace/DesignPlus/servicetools.py", line 35, in queryResult
+    htmldoc = pq(self.renderPage(url))
+  File "/home/andy/workspace/DesignPlus/servicetools.py", line 27, in renderPage
+    self.browser.get(url)
+  File "/home/andy/workspace/python27/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 248, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/andy/workspace/python27/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 234, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/andy/workspace/python27/local/lib/python2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 401, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/andy/workspace/python27/local/lib/python2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 471, in _request
+    resp = opener.open(request, timeout=self._timeout)
+  File "/usr/lib/python2.7/urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.7/urllib2.py", line 447, in _open
+    '_open', req)
+  File "/usr/lib/python2.7/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.7/urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.7/urllib2.py", line 1201, in do_open
+    r = h.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt

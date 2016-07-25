@@ -1,0 +1,750 @@
+DEBUG Sun, 24 Jul 2016 17:51:58 POST http://127.0.0.1:38389/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 17:51:58 Finished Request
+INFO Sun, 24 Jul 2016 17:51:58 start to do: ['http://www.templatemonster.com/website-templates.php?page=1']
+DEBUG Sun, 24 Jul 2016 17:51:58 POST http://127.0.0.1:38389/wd/hub/session/4318cad0-5184-11e6-b9d6-65c3db0a1184/url {"url": "http://www.templatemonster.com/website-templates.php?page=1", "sessionId": "4318cad0-5184-11e6-b9d6-65c3db0a1184"}
+DEBUG Sun, 24 Jul 2016 17:55:48 POST http://127.0.0.1:47447/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 17:55:48 Finished Request
+INFO Sun, 24 Jul 2016 17:55:48 start to do: ['http://www.templatemonster.com/website-templates.php?page=2']
+DEBUG Sun, 24 Jul 2016 17:55:48 POST http://127.0.0.1:47447/wd/hub/session/cbf20e70-5184-11e6-a2d4-055cda21778b/url {"url": "http://www.templatemonster.com/website-templates.php?page=2", "sessionId": "cbf20e70-5184-11e6-a2d4-055cda21778b"}
+DEBUG Sun, 24 Jul 2016 17:57:29 POST http://127.0.0.1:34022/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 17:57:29 Finished Request
+INFO Sun, 24 Jul 2016 17:57:29 start to do: ['http://www.templatemonster.com/website-templates.php?page=3']
+DEBUG Sun, 24 Jul 2016 17:57:29 POST http://127.0.0.1:34022/wd/hub/session/0886efe0-5185-11e6-97cb-d33b487d6909/url {"url": "http://www.templatemonster.com/website-templates.php?page=3", "sessionId": "0886efe0-5185-11e6-97cb-d33b487d6909"}
+DEBUG Sun, 24 Jul 2016 19:36:10 POST http://127.0.0.1:49148/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:10 Finished Request
+INFO Sun, 24 Jul 2016 19:36:10 start to do: ['http://www.templatemonster.com/website-templates.php?page=3']
+DEBUG Sun, 24 Jul 2016 19:36:10 POST http://127.0.0.1:49148/wd/hub/session/d17c7b10-5192-11e6-8837-ddb091f954ca/url {"url": "http://www.templatemonster.com/website-templates.php?page=3", "sessionId": "d17c7b10-5192-11e6-8837-ddb091f954ca"}
+DEBUG Sun, 24 Jul 2016 19:36:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:15 GET http://127.0.0.1:49148/wd/hub/session/d17c7b10-5192-11e6-8837-ddb091f954ca/source {"sessionId": "d17c7b10-5192-11e6-8837-ddb091f954ca"}
+DEBUG Sun, 24 Jul 2016 19:36:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:15 DELETE http://127.0.0.1:49148/wd/hub/session/d17c7b10-5192-11e6-8837-ddb091f954ca/window {"sessionId": "d17c7b10-5192-11e6-8837-ddb091f954ca"}
+DEBUG Sun, 24 Jul 2016 19:36:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:16 POST http://127.0.0.1:46754/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:16 Finished Request
+INFO Sun, 24 Jul 2016 19:36:16 end of: http://www.templatemonster.com/website-templates.php?page=3
+INFO Sun, 24 Jul 2016 19:36:16 238 waited: 1 done
+INFO Sun, 24 Jul 2016 19:36:16 start to do: ['http://www.templatemonster.com/website-templates.php?page=4']
+DEBUG Sun, 24 Jul 2016 19:36:16 POST http://127.0.0.1:46754/wd/hub/session/d56aa530-5192-11e6-95ec-e9bb3f9e3ac5/url {"url": "http://www.templatemonster.com/website-templates.php?page=4", "sessionId": "d56aa530-5192-11e6-95ec-e9bb3f9e3ac5"}
+DEBUG Sun, 24 Jul 2016 19:36:26 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:26 GET http://127.0.0.1:46754/wd/hub/session/d56aa530-5192-11e6-95ec-e9bb3f9e3ac5/source {"sessionId": "d56aa530-5192-11e6-95ec-e9bb3f9e3ac5"}
+DEBUG Sun, 24 Jul 2016 19:36:26 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:26 DELETE http://127.0.0.1:46754/wd/hub/session/d56aa530-5192-11e6-95ec-e9bb3f9e3ac5/window {"sessionId": "d56aa530-5192-11e6-95ec-e9bb3f9e3ac5"}
+DEBUG Sun, 24 Jul 2016 19:36:26 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:27 POST http://127.0.0.1:34319/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:27 Finished Request
+INFO Sun, 24 Jul 2016 19:36:27 end of: http://www.templatemonster.com/website-templates.php?page=4
+INFO Sun, 24 Jul 2016 19:36:27 284 waited: 2 done
+INFO Sun, 24 Jul 2016 19:36:27 start to do: ['http://www.templatemonster.com/website-templates.php?page=5']
+DEBUG Sun, 24 Jul 2016 19:36:27 POST http://127.0.0.1:34319/wd/hub/session/dc072670-5192-11e6-ab57-f93d547830ae/url {"url": "http://www.templatemonster.com/website-templates.php?page=5", "sessionId": "dc072670-5192-11e6-ab57-f93d547830ae"}
+DEBUG Sun, 24 Jul 2016 19:36:36 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:36 GET http://127.0.0.1:34319/wd/hub/session/dc072670-5192-11e6-ab57-f93d547830ae/source {"sessionId": "dc072670-5192-11e6-ab57-f93d547830ae"}
+DEBUG Sun, 24 Jul 2016 19:36:36 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:36 DELETE http://127.0.0.1:34319/wd/hub/session/dc072670-5192-11e6-ab57-f93d547830ae/window {"sessionId": "dc072670-5192-11e6-ab57-f93d547830ae"}
+DEBUG Sun, 24 Jul 2016 19:36:36 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:37 POST http://127.0.0.1:58507/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:37 Finished Request
+INFO Sun, 24 Jul 2016 19:36:37 end of: http://www.templatemonster.com/website-templates.php?page=5
+INFO Sun, 24 Jul 2016 19:36:37 331 waited: 3 done
+INFO Sun, 24 Jul 2016 19:36:37 start to do: ['http://www.templatemonster.com/website-templates.php?page=6']
+DEBUG Sun, 24 Jul 2016 19:36:37 POST http://127.0.0.1:58507/wd/hub/session/e1fba7e0-5192-11e6-b956-b7eb6b2fcd84/url {"url": "http://www.templatemonster.com/website-templates.php?page=6", "sessionId": "e1fba7e0-5192-11e6-b956-b7eb6b2fcd84"}
+DEBUG Sun, 24 Jul 2016 19:36:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:45 GET http://127.0.0.1:58507/wd/hub/session/e1fba7e0-5192-11e6-b956-b7eb6b2fcd84/source {"sessionId": "e1fba7e0-5192-11e6-b956-b7eb6b2fcd84"}
+DEBUG Sun, 24 Jul 2016 19:36:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:45 DELETE http://127.0.0.1:58507/wd/hub/session/e1fba7e0-5192-11e6-b956-b7eb6b2fcd84/window {"sessionId": "e1fba7e0-5192-11e6-b956-b7eb6b2fcd84"}
+DEBUG Sun, 24 Jul 2016 19:36:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:46 POST http://127.0.0.1:36632/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:46 Finished Request
+INFO Sun, 24 Jul 2016 19:36:46 end of: http://www.templatemonster.com/website-templates.php?page=6
+INFO Sun, 24 Jul 2016 19:36:46 378 waited: 4 done
+INFO Sun, 24 Jul 2016 19:36:46 start to do: ['http://www.templatemonster.com/website-templates.php?page=7']
+DEBUG Sun, 24 Jul 2016 19:36:46 POST http://127.0.0.1:36632/wd/hub/session/e74e4400-5192-11e6-92b1-b1ae69f7eaca/url {"url": "http://www.templatemonster.com/website-templates.php?page=7", "sessionId": "e74e4400-5192-11e6-92b1-b1ae69f7eaca"}
+DEBUG Sun, 24 Jul 2016 19:36:55 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:55 GET http://127.0.0.1:36632/wd/hub/session/e74e4400-5192-11e6-92b1-b1ae69f7eaca/source {"sessionId": "e74e4400-5192-11e6-92b1-b1ae69f7eaca"}
+DEBUG Sun, 24 Jul 2016 19:36:55 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:55 DELETE http://127.0.0.1:36632/wd/hub/session/e74e4400-5192-11e6-92b1-b1ae69f7eaca/window {"sessionId": "e74e4400-5192-11e6-92b1-b1ae69f7eaca"}
+DEBUG Sun, 24 Jul 2016 19:36:55 Finished Request
+DEBUG Sun, 24 Jul 2016 19:36:56 POST http://127.0.0.1:52807/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:36:56 Finished Request
+INFO Sun, 24 Jul 2016 19:36:56 end of: http://www.templatemonster.com/website-templates.php?page=7
+INFO Sun, 24 Jul 2016 19:36:56 422 waited: 5 done
+INFO Sun, 24 Jul 2016 19:36:56 start to do: ['http://www.templatemonster.com/website-templates.php?page=8']
+DEBUG Sun, 24 Jul 2016 19:36:56 POST http://127.0.0.1:52807/wd/hub/session/ecca6120-5192-11e6-b179-59fd0c6636b7/url {"url": "http://www.templatemonster.com/website-templates.php?page=8", "sessionId": "ecca6120-5192-11e6-b179-59fd0c6636b7"}
+DEBUG Sun, 24 Jul 2016 19:37:03 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:03 GET http://127.0.0.1:52807/wd/hub/session/ecca6120-5192-11e6-b179-59fd0c6636b7/source {"sessionId": "ecca6120-5192-11e6-b179-59fd0c6636b7"}
+DEBUG Sun, 24 Jul 2016 19:37:03 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:03 DELETE http://127.0.0.1:52807/wd/hub/session/ecca6120-5192-11e6-b179-59fd0c6636b7/window {"sessionId": "ecca6120-5192-11e6-b179-59fd0c6636b7"}
+DEBUG Sun, 24 Jul 2016 19:37:03 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:04 POST http://127.0.0.1:53222/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:37:04 Finished Request
+INFO Sun, 24 Jul 2016 19:37:04 end of: http://www.templatemonster.com/website-templates.php?page=8
+INFO Sun, 24 Jul 2016 19:37:04 463 waited: 6 done
+INFO Sun, 24 Jul 2016 19:37:04 start to do: ['http://www.templatemonster.com/website-templates.php?page=9']
+DEBUG Sun, 24 Jul 2016 19:37:04 POST http://127.0.0.1:53222/wd/hub/session/f1c98610-5192-11e6-a6be-e5d397d8e0c8/url {"url": "http://www.templatemonster.com/website-templates.php?page=9", "sessionId": "f1c98610-5192-11e6-a6be-e5d397d8e0c8"}
+DEBUG Sun, 24 Jul 2016 19:37:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:12 GET http://127.0.0.1:53222/wd/hub/session/f1c98610-5192-11e6-a6be-e5d397d8e0c8/source {"sessionId": "f1c98610-5192-11e6-a6be-e5d397d8e0c8"}
+DEBUG Sun, 24 Jul 2016 19:37:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:12 DELETE http://127.0.0.1:53222/wd/hub/session/f1c98610-5192-11e6-a6be-e5d397d8e0c8/window {"sessionId": "f1c98610-5192-11e6-a6be-e5d397d8e0c8"}
+DEBUG Sun, 24 Jul 2016 19:37:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:13 POST http://127.0.0.1:56592/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:37:13 Finished Request
+INFO Sun, 24 Jul 2016 19:37:13 end of: http://www.templatemonster.com/website-templates.php?page=9
+INFO Sun, 24 Jul 2016 19:37:13 495 waited: 7 done
+INFO Sun, 24 Jul 2016 19:37:13 start to do: ['http://www.templatemonster.com/website-templates.php?page=10']
+DEBUG Sun, 24 Jul 2016 19:37:13 POST http://127.0.0.1:56592/wd/hub/session/f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9/url {"url": "http://www.templatemonster.com/website-templates.php?page=10", "sessionId": "f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9"}
+DEBUG Sun, 24 Jul 2016 19:37:20 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:20 GET http://127.0.0.1:56592/wd/hub/session/f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9/source {"sessionId": "f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9"}
+DEBUG Sun, 24 Jul 2016 19:37:20 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:20 DELETE http://127.0.0.1:56592/wd/hub/session/f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9/window {"sessionId": "f75d22d0-5192-11e6-b1af-d3c9d4d9b5c9"}
+DEBUG Sun, 24 Jul 2016 19:37:20 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:21 POST http://127.0.0.1:51027/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:37:21 Finished Request
+INFO Sun, 24 Jul 2016 19:37:21 end of: http://www.templatemonster.com/website-templates.php?page=10
+INFO Sun, 24 Jul 2016 19:37:21 531 waited: 8 done
+INFO Sun, 24 Jul 2016 19:37:21 start to do: ['http://www.templatemonster.com/website-templates.php?page=11']
+DEBUG Sun, 24 Jul 2016 19:37:21 POST http://127.0.0.1:51027/wd/hub/session/fc17c4b0-5192-11e6-9ebd-77e8ec5307b8/url {"url": "http://www.templatemonster.com/website-templates.php?page=11", "sessionId": "fc17c4b0-5192-11e6-9ebd-77e8ec5307b8"}
+DEBUG Sun, 24 Jul 2016 19:37:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:29 GET http://127.0.0.1:51027/wd/hub/session/fc17c4b0-5192-11e6-9ebd-77e8ec5307b8/source {"sessionId": "fc17c4b0-5192-11e6-9ebd-77e8ec5307b8"}
+DEBUG Sun, 24 Jul 2016 19:37:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:29 DELETE http://127.0.0.1:51027/wd/hub/session/fc17c4b0-5192-11e6-9ebd-77e8ec5307b8/window {"sessionId": "fc17c4b0-5192-11e6-9ebd-77e8ec5307b8"}
+DEBUG Sun, 24 Jul 2016 19:37:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:30 POST http://127.0.0.1:53928/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:37:30 Finished Request
+INFO Sun, 24 Jul 2016 19:37:30 end of: http://www.templatemonster.com/website-templates.php?page=11
+INFO Sun, 24 Jul 2016 19:37:30 558 waited: 9 done
+INFO Sun, 24 Jul 2016 19:37:30 start to do: ['http://www.templatemonster.com/website-templates.php?page=12']
+DEBUG Sun, 24 Jul 2016 19:37:30 POST http://127.0.0.1:53928/wd/hub/session/01697670-5193-11e6-a640-21b398322f07/url {"url": "http://www.templatemonster.com/website-templates.php?page=12", "sessionId": "01697670-5193-11e6-a640-21b398322f07"}
+DEBUG Sun, 24 Jul 2016 19:37:40 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:40 GET http://127.0.0.1:53928/wd/hub/session/01697670-5193-11e6-a640-21b398322f07/source {"sessionId": "01697670-5193-11e6-a640-21b398322f07"}
+DEBUG Sun, 24 Jul 2016 19:37:40 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:40 DELETE http://127.0.0.1:53928/wd/hub/session/01697670-5193-11e6-a640-21b398322f07/window {"sessionId": "01697670-5193-11e6-a640-21b398322f07"}
+DEBUG Sun, 24 Jul 2016 19:37:40 Finished Request
+DEBUG Sun, 24 Jul 2016 19:37:41 POST http://127.0.0.1:40710/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:37:41 Finished Request
+INFO Sun, 24 Jul 2016 19:37:41 end of: http://www.templatemonster.com/website-templates.php?page=12
+INFO Sun, 24 Jul 2016 19:37:41 588 waited: 10 done
+INFO Sun, 24 Jul 2016 19:37:41 start to do: ['http://www.templatemonster.com/website-templates.php?page=13']
+DEBUG Sun, 24 Jul 2016 19:37:41 POST http://127.0.0.1:40710/wd/hub/session/07d12c10-5193-11e6-8b8a-d520aa852023/url {"url": "http://www.templatemonster.com/website-templates.php?page=13", "sessionId": "07d12c10-5193-11e6-8b8a-d520aa852023"}
+DEBUG Sun, 24 Jul 2016 19:38:14 POST http://127.0.0.1:48405/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:38:14 Finished Request
+INFO Sun, 24 Jul 2016 19:38:14 start to do: ['http://www.templatemonster.com/website-templates.php?page=13']
+DEBUG Sun, 24 Jul 2016 19:38:14 POST http://127.0.0.1:48405/wd/hub/session/1b48ff70-5193-11e6-acec-e7d118bb4538/url {"url": "http://www.templatemonster.com/website-templates.php?page=13", "sessionId": "1b48ff70-5193-11e6-acec-e7d118bb4538"}
+DEBUG Sun, 24 Jul 2016 19:38:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:19 GET http://127.0.0.1:48405/wd/hub/session/1b48ff70-5193-11e6-acec-e7d118bb4538/source {"sessionId": "1b48ff70-5193-11e6-acec-e7d118bb4538"}
+DEBUG Sun, 24 Jul 2016 19:38:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:19 DELETE http://127.0.0.1:48405/wd/hub/session/1b48ff70-5193-11e6-acec-e7d118bb4538/window {"sessionId": "1b48ff70-5193-11e6-acec-e7d118bb4538"}
+DEBUG Sun, 24 Jul 2016 19:38:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:20 POST http://127.0.0.1:40478/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:38:20 Finished Request
+INFO Sun, 24 Jul 2016 19:38:20 end of: http://www.templatemonster.com/website-templates.php?page=13
+INFO Sun, 24 Jul 2016 19:38:20 624 waited: 11 done
+INFO Sun, 24 Jul 2016 19:38:20 start to do: ['http://www.templatemonster.com/website-templates.php?page=14']
+DEBUG Sun, 24 Jul 2016 19:38:20 POST http://127.0.0.1:40478/wd/hub/session/1eff0290-5193-11e6-80a6-6f9e221f9ecc/url {"url": "http://www.templatemonster.com/website-templates.php?page=14", "sessionId": "1eff0290-5193-11e6-80a6-6f9e221f9ecc"}
+DEBUG Sun, 24 Jul 2016 19:38:27 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:27 GET http://127.0.0.1:40478/wd/hub/session/1eff0290-5193-11e6-80a6-6f9e221f9ecc/source {"sessionId": "1eff0290-5193-11e6-80a6-6f9e221f9ecc"}
+DEBUG Sun, 24 Jul 2016 19:38:27 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:27 DELETE http://127.0.0.1:40478/wd/hub/session/1eff0290-5193-11e6-80a6-6f9e221f9ecc/window {"sessionId": "1eff0290-5193-11e6-80a6-6f9e221f9ecc"}
+DEBUG Sun, 24 Jul 2016 19:38:27 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:28 POST http://127.0.0.1:51090/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:38:28 Finished Request
+INFO Sun, 24 Jul 2016 19:38:28 end of: http://www.templatemonster.com/website-templates.php?page=14
+INFO Sun, 24 Jul 2016 19:38:28 653 waited: 12 done
+INFO Sun, 24 Jul 2016 19:38:28 start to do: ['http://www.templatemonster.com/website-templates.php?page=15']
+DEBUG Sun, 24 Jul 2016 19:38:28 POST http://127.0.0.1:51090/wd/hub/session/23aea7f0-5193-11e6-8190-351d56438830/url {"url": "http://www.templatemonster.com/website-templates.php?page=15", "sessionId": "23aea7f0-5193-11e6-8190-351d56438830"}
+DEBUG Sun, 24 Jul 2016 19:38:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:43 GET http://127.0.0.1:51090/wd/hub/session/23aea7f0-5193-11e6-8190-351d56438830/source {"sessionId": "23aea7f0-5193-11e6-8190-351d56438830"}
+DEBUG Sun, 24 Jul 2016 19:38:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:43 DELETE http://127.0.0.1:51090/wd/hub/session/23aea7f0-5193-11e6-8190-351d56438830/window {"sessionId": "23aea7f0-5193-11e6-8190-351d56438830"}
+DEBUG Sun, 24 Jul 2016 19:38:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:44 POST http://127.0.0.1:52842/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:38:44 Finished Request
+INFO Sun, 24 Jul 2016 19:38:44 end of: http://www.templatemonster.com/website-templates.php?page=15
+INFO Sun, 24 Jul 2016 19:38:44 681 waited: 13 done
+INFO Sun, 24 Jul 2016 19:38:44 start to do: ['http://www.templatemonster.com/website-templates.php?page=16']
+DEBUG Sun, 24 Jul 2016 19:38:44 POST http://127.0.0.1:52842/wd/hub/session/2d67d280-5193-11e6-a17b-a1315dbad6da/url {"url": "http://www.templatemonster.com/website-templates.php?page=16", "sessionId": "2d67d280-5193-11e6-a17b-a1315dbad6da"}
+DEBUG Sun, 24 Jul 2016 19:38:52 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:52 GET http://127.0.0.1:52842/wd/hub/session/2d67d280-5193-11e6-a17b-a1315dbad6da/source {"sessionId": "2d67d280-5193-11e6-a17b-a1315dbad6da"}
+DEBUG Sun, 24 Jul 2016 19:38:52 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:52 DELETE http://127.0.0.1:52842/wd/hub/session/2d67d280-5193-11e6-a17b-a1315dbad6da/window {"sessionId": "2d67d280-5193-11e6-a17b-a1315dbad6da"}
+DEBUG Sun, 24 Jul 2016 19:38:52 Finished Request
+DEBUG Sun, 24 Jul 2016 19:38:53 POST http://127.0.0.1:44371/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:38:53 Finished Request
+INFO Sun, 24 Jul 2016 19:38:53 end of: http://www.templatemonster.com/website-templates.php?page=16
+INFO Sun, 24 Jul 2016 19:38:53 713 waited: 14 done
+INFO Sun, 24 Jul 2016 19:38:53 start to do: ['http://www.templatemonster.com/website-templates.php?page=17']
+DEBUG Sun, 24 Jul 2016 19:38:53 POST http://127.0.0.1:44371/wd/hub/session/32f9e8a0-5193-11e6-a949-3916aac7a5f3/url {"url": "http://www.templatemonster.com/website-templates.php?page=17", "sessionId": "32f9e8a0-5193-11e6-a949-3916aac7a5f3"}
+DEBUG Sun, 24 Jul 2016 19:39:02 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:02 GET http://127.0.0.1:44371/wd/hub/session/32f9e8a0-5193-11e6-a949-3916aac7a5f3/source {"sessionId": "32f9e8a0-5193-11e6-a949-3916aac7a5f3"}
+DEBUG Sun, 24 Jul 2016 19:39:02 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:02 DELETE http://127.0.0.1:44371/wd/hub/session/32f9e8a0-5193-11e6-a949-3916aac7a5f3/window {"sessionId": "32f9e8a0-5193-11e6-a949-3916aac7a5f3"}
+DEBUG Sun, 24 Jul 2016 19:39:02 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:03 POST http://127.0.0.1:48695/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:39:03 Finished Request
+INFO Sun, 24 Jul 2016 19:39:03 end of: http://www.templatemonster.com/website-templates.php?page=17
+INFO Sun, 24 Jul 2016 19:39:03 745 waited: 15 done
+INFO Sun, 24 Jul 2016 19:39:03 start to do: ['http://www.templatemonster.com/website-templates.php?page=18']
+DEBUG Sun, 24 Jul 2016 19:39:03 POST http://127.0.0.1:48695/wd/hub/session/38780190-5193-11e6-8f11-939b6ba261ab/url {"url": "http://www.templatemonster.com/website-templates.php?page=18", "sessionId": "38780190-5193-11e6-8f11-939b6ba261ab"}
+DEBUG Sun, 24 Jul 2016 19:39:13 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:13 GET http://127.0.0.1:48695/wd/hub/session/38780190-5193-11e6-8f11-939b6ba261ab/source {"sessionId": "38780190-5193-11e6-8f11-939b6ba261ab"}
+DEBUG Sun, 24 Jul 2016 19:39:13 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:13 DELETE http://127.0.0.1:48695/wd/hub/session/38780190-5193-11e6-8f11-939b6ba261ab/window {"sessionId": "38780190-5193-11e6-8f11-939b6ba261ab"}
+DEBUG Sun, 24 Jul 2016 19:39:13 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:14 POST http://127.0.0.1:39625/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:39:14 Finished Request
+INFO Sun, 24 Jul 2016 19:39:14 end of: http://www.templatemonster.com/website-templates.php?page=18
+INFO Sun, 24 Jul 2016 19:39:14 775 waited: 16 done
+INFO Sun, 24 Jul 2016 19:39:14 start to do: ['http://www.templatemonster.com/website-templates.php?page=19']
+DEBUG Sun, 24 Jul 2016 19:39:14 POST http://127.0.0.1:39625/wd/hub/session/3f335570-5193-11e6-b12d-e98827d6cf88/url {"url": "http://www.templatemonster.com/website-templates.php?page=19", "sessionId": "3f335570-5193-11e6-b12d-e98827d6cf88"}
+DEBUG Sun, 24 Jul 2016 19:39:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:24 GET http://127.0.0.1:39625/wd/hub/session/3f335570-5193-11e6-b12d-e98827d6cf88/source {"sessionId": "3f335570-5193-11e6-b12d-e98827d6cf88"}
+DEBUG Sun, 24 Jul 2016 19:39:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:24 DELETE http://127.0.0.1:39625/wd/hub/session/3f335570-5193-11e6-b12d-e98827d6cf88/window {"sessionId": "3f335570-5193-11e6-b12d-e98827d6cf88"}
+DEBUG Sun, 24 Jul 2016 19:39:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:25 POST http://127.0.0.1:34492/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:39:25 Finished Request
+INFO Sun, 24 Jul 2016 19:39:25 end of: http://www.templatemonster.com/website-templates.php?page=19
+INFO Sun, 24 Jul 2016 19:39:25 803 waited: 17 done
+INFO Sun, 24 Jul 2016 19:39:25 start to do: ['http://www.templatemonster.com/website-templates.php?page=20']
+DEBUG Sun, 24 Jul 2016 19:39:25 POST http://127.0.0.1:34492/wd/hub/session/460f0290-5193-11e6-8a4c-cf6d44f4b830/url {"url": "http://www.templatemonster.com/website-templates.php?page=20", "sessionId": "460f0290-5193-11e6-8a4c-cf6d44f4b830"}
+DEBUG Sun, 24 Jul 2016 19:39:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:37 GET http://127.0.0.1:34492/wd/hub/session/460f0290-5193-11e6-8a4c-cf6d44f4b830/source {"sessionId": "460f0290-5193-11e6-8a4c-cf6d44f4b830"}
+DEBUG Sun, 24 Jul 2016 19:39:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:37 DELETE http://127.0.0.1:34492/wd/hub/session/460f0290-5193-11e6-8a4c-cf6d44f4b830/window {"sessionId": "460f0290-5193-11e6-8a4c-cf6d44f4b830"}
+DEBUG Sun, 24 Jul 2016 19:39:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:38 POST http://127.0.0.1:60165/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:39:38 Finished Request
+INFO Sun, 24 Jul 2016 19:39:38 end of: http://www.templatemonster.com/website-templates.php?page=20
+INFO Sun, 24 Jul 2016 19:39:38 833 waited: 18 done
+INFO Sun, 24 Jul 2016 19:39:38 start to do: ['http://www.templatemonster.com/website-templates.php?page=21']
+DEBUG Sun, 24 Jul 2016 19:39:38 POST http://127.0.0.1:60165/wd/hub/session/4dcafd90-5193-11e6-9973-351687a5d896/url {"url": "http://www.templatemonster.com/website-templates.php?page=21", "sessionId": "4dcafd90-5193-11e6-9973-351687a5d896"}
+DEBUG Sun, 24 Jul 2016 19:39:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:49 GET http://127.0.0.1:60165/wd/hub/session/4dcafd90-5193-11e6-9973-351687a5d896/source {"sessionId": "4dcafd90-5193-11e6-9973-351687a5d896"}
+DEBUG Sun, 24 Jul 2016 19:39:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:49 DELETE http://127.0.0.1:60165/wd/hub/session/4dcafd90-5193-11e6-9973-351687a5d896/window {"sessionId": "4dcafd90-5193-11e6-9973-351687a5d896"}
+DEBUG Sun, 24 Jul 2016 19:39:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:39:50 POST http://127.0.0.1:42692/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:39:50 Finished Request
+INFO Sun, 24 Jul 2016 19:39:50 end of: http://www.templatemonster.com/website-templates.php?page=21
+INFO Sun, 24 Jul 2016 19:39:50 867 waited: 19 done
+INFO Sun, 24 Jul 2016 19:39:50 start to do: ['http://www.templatemonster.com/website-templates.php?page=22']
+DEBUG Sun, 24 Jul 2016 19:39:50 POST http://127.0.0.1:42692/wd/hub/session/549c4a70-5193-11e6-b8d5-5f790b766232/url {"url": "http://www.templatemonster.com/website-templates.php?page=22", "sessionId": "549c4a70-5193-11e6-b8d5-5f790b766232"}
+DEBUG Sun, 24 Jul 2016 19:40:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:01 GET http://127.0.0.1:42692/wd/hub/session/549c4a70-5193-11e6-b8d5-5f790b766232/source {"sessionId": "549c4a70-5193-11e6-b8d5-5f790b766232"}
+DEBUG Sun, 24 Jul 2016 19:40:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:01 DELETE http://127.0.0.1:42692/wd/hub/session/549c4a70-5193-11e6-b8d5-5f790b766232/window {"sessionId": "549c4a70-5193-11e6-b8d5-5f790b766232"}
+DEBUG Sun, 24 Jul 2016 19:40:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:02 POST http://127.0.0.1:48925/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:40:02 Finished Request
+INFO Sun, 24 Jul 2016 19:40:02 end of: http://www.templatemonster.com/website-templates.php?page=22
+INFO Sun, 24 Jul 2016 19:40:02 900 waited: 20 done
+INFO Sun, 24 Jul 2016 19:40:02 start to do: ['http://www.templatemonster.com/website-templates.php?page=23']
+DEBUG Sun, 24 Jul 2016 19:40:02 POST http://127.0.0.1:48925/wd/hub/session/5c160c50-5193-11e6-9be5-51a3d234a103/url {"url": "http://www.templatemonster.com/website-templates.php?page=23", "sessionId": "5c160c50-5193-11e6-9be5-51a3d234a103"}
+DEBUG Sun, 24 Jul 2016 19:40:21 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:21 GET http://127.0.0.1:48925/wd/hub/session/5c160c50-5193-11e6-9be5-51a3d234a103/source {"sessionId": "5c160c50-5193-11e6-9be5-51a3d234a103"}
+DEBUG Sun, 24 Jul 2016 19:40:21 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:21 DELETE http://127.0.0.1:48925/wd/hub/session/5c160c50-5193-11e6-9be5-51a3d234a103/window {"sessionId": "5c160c50-5193-11e6-9be5-51a3d234a103"}
+DEBUG Sun, 24 Jul 2016 19:40:21 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:22 POST http://127.0.0.1:55156/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:40:22 Finished Request
+INFO Sun, 24 Jul 2016 19:40:22 end of: http://www.templatemonster.com/website-templates.php?page=23
+INFO Sun, 24 Jul 2016 19:40:22 936 waited: 21 done
+INFO Sun, 24 Jul 2016 19:40:22 start to do: ['http://www.templatemonster.com/website-templates.php?page=24']
+DEBUG Sun, 24 Jul 2016 19:40:22 POST http://127.0.0.1:55156/wd/hub/session/68133370-5193-11e6-a4ac-b9a0cc308403/url {"url": "http://www.templatemonster.com/website-templates.php?page=24", "sessionId": "68133370-5193-11e6-a4ac-b9a0cc308403"}
+DEBUG Sun, 24 Jul 2016 19:40:34 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:34 GET http://127.0.0.1:55156/wd/hub/session/68133370-5193-11e6-a4ac-b9a0cc308403/source {"sessionId": "68133370-5193-11e6-a4ac-b9a0cc308403"}
+DEBUG Sun, 24 Jul 2016 19:40:34 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:34 DELETE http://127.0.0.1:55156/wd/hub/session/68133370-5193-11e6-a4ac-b9a0cc308403/window {"sessionId": "68133370-5193-11e6-a4ac-b9a0cc308403"}
+DEBUG Sun, 24 Jul 2016 19:40:34 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:35 POST http://127.0.0.1:55526/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:40:35 Finished Request
+INFO Sun, 24 Jul 2016 19:40:35 end of: http://www.templatemonster.com/website-templates.php?page=24
+INFO Sun, 24 Jul 2016 19:40:35 966 waited: 22 done
+INFO Sun, 24 Jul 2016 19:40:35 start to do: ['http://www.templatemonster.com/website-templates.php?page=25']
+DEBUG Sun, 24 Jul 2016 19:40:35 POST http://127.0.0.1:55526/wd/hub/session/6fc48010-5193-11e6-94ed-b9cef8a58a32/url {"url": "http://www.templatemonster.com/website-templates.php?page=25", "sessionId": "6fc48010-5193-11e6-94ed-b9cef8a58a32"}
+DEBUG Sun, 24 Jul 2016 19:40:44 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:44 GET http://127.0.0.1:55526/wd/hub/session/6fc48010-5193-11e6-94ed-b9cef8a58a32/source {"sessionId": "6fc48010-5193-11e6-94ed-b9cef8a58a32"}
+DEBUG Sun, 24 Jul 2016 19:40:44 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:44 DELETE http://127.0.0.1:55526/wd/hub/session/6fc48010-5193-11e6-94ed-b9cef8a58a32/window {"sessionId": "6fc48010-5193-11e6-94ed-b9cef8a58a32"}
+DEBUG Sun, 24 Jul 2016 19:40:44 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:45 POST http://127.0.0.1:42388/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:40:45 Finished Request
+INFO Sun, 24 Jul 2016 19:40:45 end of: http://www.templatemonster.com/website-templates.php?page=25
+INFO Sun, 24 Jul 2016 19:40:45 999 waited: 23 done
+INFO Sun, 24 Jul 2016 19:40:45 start to do: ['http://www.templatemonster.com/website-templates.php?page=26']
+DEBUG Sun, 24 Jul 2016 19:40:45 POST http://127.0.0.1:42388/wd/hub/session/75595550-5193-11e6-b7ff-49ae524d64ca/url {"url": "http://www.templatemonster.com/website-templates.php?page=26", "sessionId": "75595550-5193-11e6-b7ff-49ae524d64ca"}
+DEBUG Sun, 24 Jul 2016 19:40:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:56 GET http://127.0.0.1:42388/wd/hub/session/75595550-5193-11e6-b7ff-49ae524d64ca/source {"sessionId": "75595550-5193-11e6-b7ff-49ae524d64ca"}
+DEBUG Sun, 24 Jul 2016 19:40:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:56 DELETE http://127.0.0.1:42388/wd/hub/session/75595550-5193-11e6-b7ff-49ae524d64ca/window {"sessionId": "75595550-5193-11e6-b7ff-49ae524d64ca"}
+DEBUG Sun, 24 Jul 2016 19:40:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:40:57 POST http://127.0.0.1:49258/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:40:57 Finished Request
+INFO Sun, 24 Jul 2016 19:40:57 end of: http://www.templatemonster.com/website-templates.php?page=26
+INFO Sun, 24 Jul 2016 19:40:57 1033 waited: 24 done
+INFO Sun, 24 Jul 2016 19:40:57 start to do: ['http://www.templatemonster.com/website-templates.php?page=27']
+DEBUG Sun, 24 Jul 2016 19:40:57 POST http://127.0.0.1:49258/wd/hub/session/7ca2df70-5193-11e6-bbf5-b54f4d3ad003/url {"url": "http://www.templatemonster.com/website-templates.php?page=27", "sessionId": "7ca2df70-5193-11e6-bbf5-b54f4d3ad003"}
+DEBUG Sun, 24 Jul 2016 19:41:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:10 GET http://127.0.0.1:49258/wd/hub/session/7ca2df70-5193-11e6-bbf5-b54f4d3ad003/source {"sessionId": "7ca2df70-5193-11e6-bbf5-b54f4d3ad003"}
+DEBUG Sun, 24 Jul 2016 19:41:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:10 DELETE http://127.0.0.1:49258/wd/hub/session/7ca2df70-5193-11e6-bbf5-b54f4d3ad003/window {"sessionId": "7ca2df70-5193-11e6-bbf5-b54f4d3ad003"}
+DEBUG Sun, 24 Jul 2016 19:41:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:11 POST http://127.0.0.1:49139/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:41:11 Finished Request
+INFO Sun, 24 Jul 2016 19:41:11 end of: http://www.templatemonster.com/website-templates.php?page=27
+INFO Sun, 24 Jul 2016 19:41:11 1066 waited: 25 done
+INFO Sun, 24 Jul 2016 19:41:11 start to do: ['http://www.templatemonster.com/website-templates.php?page=28']
+DEBUG Sun, 24 Jul 2016 19:41:11 POST http://127.0.0.1:49139/wd/hub/session/85164390-5193-11e6-a86f-dd6ae73d8a77/url {"url": "http://www.templatemonster.com/website-templates.php?page=28", "sessionId": "85164390-5193-11e6-a86f-dd6ae73d8a77"}
+DEBUG Sun, 24 Jul 2016 19:41:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:22 GET http://127.0.0.1:49139/wd/hub/session/85164390-5193-11e6-a86f-dd6ae73d8a77/source {"sessionId": "85164390-5193-11e6-a86f-dd6ae73d8a77"}
+DEBUG Sun, 24 Jul 2016 19:41:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:22 DELETE http://127.0.0.1:49139/wd/hub/session/85164390-5193-11e6-a86f-dd6ae73d8a77/window {"sessionId": "85164390-5193-11e6-a86f-dd6ae73d8a77"}
+DEBUG Sun, 24 Jul 2016 19:41:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:23 POST http://127.0.0.1:42771/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:41:23 Finished Request
+INFO Sun, 24 Jul 2016 19:41:23 end of: http://www.templatemonster.com/website-templates.php?page=28
+INFO Sun, 24 Jul 2016 19:41:23 1102 waited: 26 done
+INFO Sun, 24 Jul 2016 19:41:23 start to do: ['http://www.templatemonster.com/website-templates.php?page=29']
+DEBUG Sun, 24 Jul 2016 19:41:23 POST http://127.0.0.1:42771/wd/hub/session/8c3b07a0-5193-11e6-99d5-c159372f436a/url {"url": "http://www.templatemonster.com/website-templates.php?page=29", "sessionId": "8c3b07a0-5193-11e6-99d5-c159372f436a"}
+DEBUG Sun, 24 Jul 2016 19:41:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:31 GET http://127.0.0.1:42771/wd/hub/session/8c3b07a0-5193-11e6-99d5-c159372f436a/source {"sessionId": "8c3b07a0-5193-11e6-99d5-c159372f436a"}
+DEBUG Sun, 24 Jul 2016 19:41:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:31 DELETE http://127.0.0.1:42771/wd/hub/session/8c3b07a0-5193-11e6-99d5-c159372f436a/window {"sessionId": "8c3b07a0-5193-11e6-99d5-c159372f436a"}
+DEBUG Sun, 24 Jul 2016 19:41:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:32 POST http://127.0.0.1:34651/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:41:32 Finished Request
+INFO Sun, 24 Jul 2016 19:41:32 end of: http://www.templatemonster.com/website-templates.php?page=29
+INFO Sun, 24 Jul 2016 19:41:32 1137 waited: 27 done
+INFO Sun, 24 Jul 2016 19:41:32 start to do: ['http://www.templatemonster.com/website-templates.php?page=30']
+DEBUG Sun, 24 Jul 2016 19:41:32 POST http://127.0.0.1:34651/wd/hub/session/915afb00-5193-11e6-852f-974b4770c388/url {"url": "http://www.templatemonster.com/website-templates.php?page=30", "sessionId": "915afb00-5193-11e6-852f-974b4770c388"}
+DEBUG Sun, 24 Jul 2016 19:41:42 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:42 GET http://127.0.0.1:34651/wd/hub/session/915afb00-5193-11e6-852f-974b4770c388/source {"sessionId": "915afb00-5193-11e6-852f-974b4770c388"}
+DEBUG Sun, 24 Jul 2016 19:41:42 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:42 DELETE http://127.0.0.1:34651/wd/hub/session/915afb00-5193-11e6-852f-974b4770c388/window {"sessionId": "915afb00-5193-11e6-852f-974b4770c388"}
+DEBUG Sun, 24 Jul 2016 19:41:42 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:43 POST http://127.0.0.1:49442/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:41:43 Finished Request
+INFO Sun, 24 Jul 2016 19:41:43 end of: http://www.templatemonster.com/website-templates.php?page=30
+INFO Sun, 24 Jul 2016 19:41:43 1171 waited: 28 done
+INFO Sun, 24 Jul 2016 19:41:43 start to do: ['http://www.templatemonster.com/website-templates.php?page=31']
+DEBUG Sun, 24 Jul 2016 19:41:43 POST http://127.0.0.1:49442/wd/hub/session/98236e40-5193-11e6-98fe-11741434112b/url {"url": "http://www.templatemonster.com/website-templates.php?page=31", "sessionId": "98236e40-5193-11e6-98fe-11741434112b"}
+DEBUG Sun, 24 Jul 2016 19:41:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:56 GET http://127.0.0.1:49442/wd/hub/session/98236e40-5193-11e6-98fe-11741434112b/source {"sessionId": "98236e40-5193-11e6-98fe-11741434112b"}
+DEBUG Sun, 24 Jul 2016 19:41:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:56 DELETE http://127.0.0.1:49442/wd/hub/session/98236e40-5193-11e6-98fe-11741434112b/window {"sessionId": "98236e40-5193-11e6-98fe-11741434112b"}
+DEBUG Sun, 24 Jul 2016 19:41:56 Finished Request
+DEBUG Sun, 24 Jul 2016 19:41:57 POST http://127.0.0.1:43151/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:41:57 Finished Request
+INFO Sun, 24 Jul 2016 19:41:57 end of: http://www.templatemonster.com/website-templates.php?page=31
+INFO Sun, 24 Jul 2016 19:41:57 1204 waited: 29 done
+INFO Sun, 24 Jul 2016 19:41:57 start to do: ['http://www.templatemonster.com/website-templates.php?page=32']
+DEBUG Sun, 24 Jul 2016 19:41:57 POST http://127.0.0.1:43151/wd/hub/session/a065b040-5193-11e6-b5fc-39d4871d92ed/url {"url": "http://www.templatemonster.com/website-templates.php?page=32", "sessionId": "a065b040-5193-11e6-b5fc-39d4871d92ed"}
+DEBUG Sun, 24 Jul 2016 19:42:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:10 GET http://127.0.0.1:43151/wd/hub/session/a065b040-5193-11e6-b5fc-39d4871d92ed/source {"sessionId": "a065b040-5193-11e6-b5fc-39d4871d92ed"}
+DEBUG Sun, 24 Jul 2016 19:42:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:10 DELETE http://127.0.0.1:43151/wd/hub/session/a065b040-5193-11e6-b5fc-39d4871d92ed/window {"sessionId": "a065b040-5193-11e6-b5fc-39d4871d92ed"}
+DEBUG Sun, 24 Jul 2016 19:42:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:11 POST http://127.0.0.1:33635/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:42:11 Finished Request
+INFO Sun, 24 Jul 2016 19:42:11 end of: http://www.templatemonster.com/website-templates.php?page=32
+INFO Sun, 24 Jul 2016 19:42:11 1238 waited: 30 done
+INFO Sun, 24 Jul 2016 19:42:11 start to do: ['http://www.templatemonster.com/website-templates.php?page=33']
+DEBUG Sun, 24 Jul 2016 19:42:11 POST http://127.0.0.1:33635/wd/hub/session/a8a1fed0-5193-11e6-bc2d-13569ec77670/url {"url": "http://www.templatemonster.com/website-templates.php?page=33", "sessionId": "a8a1fed0-5193-11e6-bc2d-13569ec77670"}
+DEBUG Sun, 24 Jul 2016 19:42:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:19 GET http://127.0.0.1:33635/wd/hub/session/a8a1fed0-5193-11e6-bc2d-13569ec77670/source {"sessionId": "a8a1fed0-5193-11e6-bc2d-13569ec77670"}
+DEBUG Sun, 24 Jul 2016 19:42:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:19 DELETE http://127.0.0.1:33635/wd/hub/session/a8a1fed0-5193-11e6-bc2d-13569ec77670/window {"sessionId": "a8a1fed0-5193-11e6-bc2d-13569ec77670"}
+DEBUG Sun, 24 Jul 2016 19:42:19 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:20 POST http://127.0.0.1:41607/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:42:20 Finished Request
+INFO Sun, 24 Jul 2016 19:42:20 end of: http://www.templatemonster.com/website-templates.php?page=33
+INFO Sun, 24 Jul 2016 19:42:20 1270 waited: 31 done
+INFO Sun, 24 Jul 2016 19:42:20 start to do: ['http://www.templatemonster.com/website-templates.php?page=34']
+DEBUG Sun, 24 Jul 2016 19:42:20 POST http://127.0.0.1:41607/wd/hub/session/ae6e5ed0-5193-11e6-b1ae-49ae4da9d790/url {"url": "http://www.templatemonster.com/website-templates.php?page=34", "sessionId": "ae6e5ed0-5193-11e6-b1ae-49ae4da9d790"}
+DEBUG Sun, 24 Jul 2016 19:42:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:31 GET http://127.0.0.1:41607/wd/hub/session/ae6e5ed0-5193-11e6-b1ae-49ae4da9d790/source {"sessionId": "ae6e5ed0-5193-11e6-b1ae-49ae4da9d790"}
+DEBUG Sun, 24 Jul 2016 19:42:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:31 DELETE http://127.0.0.1:41607/wd/hub/session/ae6e5ed0-5193-11e6-b1ae-49ae4da9d790/window {"sessionId": "ae6e5ed0-5193-11e6-b1ae-49ae4da9d790"}
+DEBUG Sun, 24 Jul 2016 19:42:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:32 POST http://127.0.0.1:53969/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:42:33 Finished Request
+INFO Sun, 24 Jul 2016 19:42:33 end of: http://www.templatemonster.com/website-templates.php?page=34
+INFO Sun, 24 Jul 2016 19:42:33 1302 waited: 32 done
+INFO Sun, 24 Jul 2016 19:42:33 start to do: ['http://www.templatemonster.com/website-templates.php?page=35']
+DEBUG Sun, 24 Jul 2016 19:42:33 POST http://127.0.0.1:53969/wd/hub/session/b597ddd0-5193-11e6-b12f-e3535e362d42/url {"url": "http://www.templatemonster.com/website-templates.php?page=35", "sessionId": "b597ddd0-5193-11e6-b12f-e3535e362d42"}
+DEBUG Sun, 24 Jul 2016 19:42:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:45 GET http://127.0.0.1:53969/wd/hub/session/b597ddd0-5193-11e6-b12f-e3535e362d42/source {"sessionId": "b597ddd0-5193-11e6-b12f-e3535e362d42"}
+DEBUG Sun, 24 Jul 2016 19:42:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:45 DELETE http://127.0.0.1:53969/wd/hub/session/b597ddd0-5193-11e6-b12f-e3535e362d42/window {"sessionId": "b597ddd0-5193-11e6-b12f-e3535e362d42"}
+DEBUG Sun, 24 Jul 2016 19:42:45 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:46 POST http://127.0.0.1:35159/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:42:46 Finished Request
+INFO Sun, 24 Jul 2016 19:42:46 end of: http://www.templatemonster.com/website-templates.php?page=35
+INFO Sun, 24 Jul 2016 19:42:46 1334 waited: 33 done
+INFO Sun, 24 Jul 2016 19:42:46 start to do: ['http://www.templatemonster.com/website-templates.php?page=36']
+DEBUG Sun, 24 Jul 2016 19:42:46 POST http://127.0.0.1:35159/wd/hub/session/bd7c2150-5193-11e6-92f0-8592c7cf6b48/url {"url": "http://www.templatemonster.com/website-templates.php?page=36", "sessionId": "bd7c2150-5193-11e6-92f0-8592c7cf6b48"}
+DEBUG Sun, 24 Jul 2016 19:42:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:54 GET http://127.0.0.1:35159/wd/hub/session/bd7c2150-5193-11e6-92f0-8592c7cf6b48/source {"sessionId": "bd7c2150-5193-11e6-92f0-8592c7cf6b48"}
+DEBUG Sun, 24 Jul 2016 19:42:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:54 DELETE http://127.0.0.1:35159/wd/hub/session/bd7c2150-5193-11e6-92f0-8592c7cf6b48/window {"sessionId": "bd7c2150-5193-11e6-92f0-8592c7cf6b48"}
+DEBUG Sun, 24 Jul 2016 19:42:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:42:55 POST http://127.0.0.1:48331/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:42:55 Finished Request
+INFO Sun, 24 Jul 2016 19:42:55 end of: http://www.templatemonster.com/website-templates.php?page=36
+INFO Sun, 24 Jul 2016 19:42:55 1368 waited: 34 done
+INFO Sun, 24 Jul 2016 19:42:55 start to do: ['http://www.templatemonster.com/website-templates.php?page=37']
+DEBUG Sun, 24 Jul 2016 19:42:55 POST http://127.0.0.1:48331/wd/hub/session/c3396620-5193-11e6-b279-7bd413a7a485/url {"url": "http://www.templatemonster.com/website-templates.php?page=37", "sessionId": "c3396620-5193-11e6-b279-7bd413a7a485"}
+DEBUG Sun, 24 Jul 2016 19:43:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:10 GET http://127.0.0.1:48331/wd/hub/session/c3396620-5193-11e6-b279-7bd413a7a485/source {"sessionId": "c3396620-5193-11e6-b279-7bd413a7a485"}
+DEBUG Sun, 24 Jul 2016 19:43:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:10 DELETE http://127.0.0.1:48331/wd/hub/session/c3396620-5193-11e6-b279-7bd413a7a485/window {"sessionId": "c3396620-5193-11e6-b279-7bd413a7a485"}
+DEBUG Sun, 24 Jul 2016 19:43:10 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:11 POST http://127.0.0.1:47371/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:43:11 Finished Request
+INFO Sun, 24 Jul 2016 19:43:11 end of: http://www.templatemonster.com/website-templates.php?page=37
+INFO Sun, 24 Jul 2016 19:43:11 1405 waited: 35 done
+INFO Sun, 24 Jul 2016 19:43:11 start to do: ['http://www.templatemonster.com/website-templates.php?page=38']
+DEBUG Sun, 24 Jul 2016 19:43:11 POST http://127.0.0.1:47371/wd/hub/session/cc99e960-5193-11e6-a170-cb07340e7401/url {"url": "http://www.templatemonster.com/website-templates.php?page=38", "sessionId": "cc99e960-5193-11e6-a170-cb07340e7401"}
+DEBUG Sun, 24 Jul 2016 19:43:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:22 GET http://127.0.0.1:47371/wd/hub/session/cc99e960-5193-11e6-a170-cb07340e7401/source {"sessionId": "cc99e960-5193-11e6-a170-cb07340e7401"}
+DEBUG Sun, 24 Jul 2016 19:43:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:22 DELETE http://127.0.0.1:47371/wd/hub/session/cc99e960-5193-11e6-a170-cb07340e7401/window {"sessionId": "cc99e960-5193-11e6-a170-cb07340e7401"}
+DEBUG Sun, 24 Jul 2016 19:43:22 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:23 POST http://127.0.0.1:49111/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:43:23 Finished Request
+INFO Sun, 24 Jul 2016 19:43:23 end of: http://www.templatemonster.com/website-templates.php?page=38
+INFO Sun, 24 Jul 2016 19:43:23 1442 waited: 36 done
+INFO Sun, 24 Jul 2016 19:43:23 start to do: ['http://www.templatemonster.com/website-templates.php?page=39']
+DEBUG Sun, 24 Jul 2016 19:43:23 POST http://127.0.0.1:49111/wd/hub/session/d3f17d40-5193-11e6-8a64-9fecd5caa385/url {"url": "http://www.templatemonster.com/website-templates.php?page=39", "sessionId": "d3f17d40-5193-11e6-8a64-9fecd5caa385"}
+DEBUG Sun, 24 Jul 2016 19:43:35 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:35 GET http://127.0.0.1:49111/wd/hub/session/d3f17d40-5193-11e6-8a64-9fecd5caa385/source {"sessionId": "d3f17d40-5193-11e6-8a64-9fecd5caa385"}
+DEBUG Sun, 24 Jul 2016 19:43:35 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:35 DELETE http://127.0.0.1:49111/wd/hub/session/d3f17d40-5193-11e6-8a64-9fecd5caa385/window {"sessionId": "d3f17d40-5193-11e6-8a64-9fecd5caa385"}
+DEBUG Sun, 24 Jul 2016 19:43:35 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:36 POST http://127.0.0.1:56526/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:43:36 Finished Request
+INFO Sun, 24 Jul 2016 19:43:36 end of: http://www.templatemonster.com/website-templates.php?page=39
+INFO Sun, 24 Jul 2016 19:43:36 1476 waited: 37 done
+INFO Sun, 24 Jul 2016 19:43:36 start to do: ['http://www.templatemonster.com/website-templates.php?page=40']
+DEBUG Sun, 24 Jul 2016 19:43:36 POST http://127.0.0.1:56526/wd/hub/session/dbb9fb60-5193-11e6-ac55-911df5456d24/url {"url": "http://www.templatemonster.com/website-templates.php?page=40", "sessionId": "dbb9fb60-5193-11e6-ac55-911df5456d24"}
+DEBUG Sun, 24 Jul 2016 19:43:47 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:47 GET http://127.0.0.1:56526/wd/hub/session/dbb9fb60-5193-11e6-ac55-911df5456d24/source {"sessionId": "dbb9fb60-5193-11e6-ac55-911df5456d24"}
+DEBUG Sun, 24 Jul 2016 19:43:47 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:48 DELETE http://127.0.0.1:56526/wd/hub/session/dbb9fb60-5193-11e6-ac55-911df5456d24/window {"sessionId": "dbb9fb60-5193-11e6-ac55-911df5456d24"}
+DEBUG Sun, 24 Jul 2016 19:43:48 Finished Request
+DEBUG Sun, 24 Jul 2016 19:43:49 POST http://127.0.0.1:54590/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:43:49 Finished Request
+INFO Sun, 24 Jul 2016 19:43:49 end of: http://www.templatemonster.com/website-templates.php?page=40
+INFO Sun, 24 Jul 2016 19:43:49 1514 waited: 38 done
+INFO Sun, 24 Jul 2016 19:43:49 start to do: ['http://www.templatemonster.com/website-templates.php?page=41']
+DEBUG Sun, 24 Jul 2016 19:43:49 POST http://127.0.0.1:54590/wd/hub/session/e2e994e0-5193-11e6-94d9-edad2d3c493e/url {"url": "http://www.templatemonster.com/website-templates.php?page=41", "sessionId": "e2e994e0-5193-11e6-94d9-edad2d3c493e"}
+DEBUG Sun, 24 Jul 2016 19:44:00 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:00 GET http://127.0.0.1:54590/wd/hub/session/e2e994e0-5193-11e6-94d9-edad2d3c493e/source {"sessionId": "e2e994e0-5193-11e6-94d9-edad2d3c493e"}
+DEBUG Sun, 24 Jul 2016 19:44:00 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:00 DELETE http://127.0.0.1:54590/wd/hub/session/e2e994e0-5193-11e6-94d9-edad2d3c493e/window {"sessionId": "e2e994e0-5193-11e6-94d9-edad2d3c493e"}
+DEBUG Sun, 24 Jul 2016 19:44:00 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:01 POST http://127.0.0.1:59194/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:44:01 Finished Request
+INFO Sun, 24 Jul 2016 19:44:01 end of: http://www.templatemonster.com/website-templates.php?page=41
+INFO Sun, 24 Jul 2016 19:44:01 1548 waited: 39 done
+INFO Sun, 24 Jul 2016 19:44:01 start to do: ['http://www.templatemonster.com/website-templates.php?page=42']
+DEBUG Sun, 24 Jul 2016 19:44:01 POST http://127.0.0.1:59194/wd/hub/session/ea51ca90-5193-11e6-a3bf-5f621a7e7c80/url {"url": "http://www.templatemonster.com/website-templates.php?page=42", "sessionId": "ea51ca90-5193-11e6-a3bf-5f621a7e7c80"}
+DEBUG Sun, 24 Jul 2016 19:44:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:14 GET http://127.0.0.1:59194/wd/hub/session/ea51ca90-5193-11e6-a3bf-5f621a7e7c80/source {"sessionId": "ea51ca90-5193-11e6-a3bf-5f621a7e7c80"}
+DEBUG Sun, 24 Jul 2016 19:44:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:14 DELETE http://127.0.0.1:59194/wd/hub/session/ea51ca90-5193-11e6-a3bf-5f621a7e7c80/window {"sessionId": "ea51ca90-5193-11e6-a3bf-5f621a7e7c80"}
+DEBUG Sun, 24 Jul 2016 19:44:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:44:15 POST http://127.0.0.1:53827/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:44:15 Finished Request
+INFO Sun, 24 Jul 2016 19:44:15 end of: http://www.templatemonster.com/website-templates.php?page=42
+INFO Sun, 24 Jul 2016 19:44:15 1585 waited: 40 done
+INFO Sun, 24 Jul 2016 19:44:15 start to do: ['http://www.templatemonster.com/website-templates.php?page=43']
+DEBUG Sun, 24 Jul 2016 19:44:15 POST http://127.0.0.1:53827/wd/hub/session/f2c92650-5193-11e6-bd3e-cfdae9985fab/url {"url": "http://www.templatemonster.com/website-templates.php?page=43", "sessionId": "f2c92650-5193-11e6-bd3e-cfdae9985fab"}
+DEBUG Sun, 24 Jul 2016 19:44:55 POST http://127.0.0.1:52219/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:44:55 Finished Request
+INFO Sun, 24 Jul 2016 19:44:55 start to do: ['http://www.templatemonster.com/website-templates.php?page=1']
+DEBUG Sun, 24 Jul 2016 19:44:55 POST http://127.0.0.1:52219/wd/hub/session/0ab23680-5194-11e6-ac74-9bf621bfa6a0/url {"url": "http://www.templatemonster.com/website-templates.php?page=1", "sessionId": "0ab23680-5194-11e6-ac74-9bf621bfa6a0"}
+DEBUG Sun, 24 Jul 2016 19:45:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:01 GET http://127.0.0.1:52219/wd/hub/session/0ab23680-5194-11e6-ac74-9bf621bfa6a0/source {"sessionId": "0ab23680-5194-11e6-ac74-9bf621bfa6a0"}
+DEBUG Sun, 24 Jul 2016 19:45:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:01 DELETE http://127.0.0.1:52219/wd/hub/session/0ab23680-5194-11e6-ac74-9bf621bfa6a0/window {"sessionId": "0ab23680-5194-11e6-ac74-9bf621bfa6a0"}
+DEBUG Sun, 24 Jul 2016 19:45:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:02 POST http://127.0.0.1:60370/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:02 Finished Request
+INFO Sun, 24 Jul 2016 19:45:02 end of: http://www.templatemonster.com/website-templates.php?page=1
+INFO Sun, 24 Jul 2016 19:45:02 35 waited: 1 done
+INFO Sun, 24 Jul 2016 19:45:02 start to do: ['http://www.templatemonster.com/website-templates.php?page=2']
+DEBUG Sun, 24 Jul 2016 19:45:02 POST http://127.0.0.1:60370/wd/hub/session/0ecb4130-5194-11e6-a4ed-d5b496b36652/url {"url": "http://www.templatemonster.com/website-templates.php?page=2", "sessionId": "0ecb4130-5194-11e6-a4ed-d5b496b36652"}
+DEBUG Sun, 24 Jul 2016 19:45:08 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:08 GET http://127.0.0.1:60370/wd/hub/session/0ecb4130-5194-11e6-a4ed-d5b496b36652/source {"sessionId": "0ecb4130-5194-11e6-a4ed-d5b496b36652"}
+DEBUG Sun, 24 Jul 2016 19:45:08 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:08 DELETE http://127.0.0.1:60370/wd/hub/session/0ecb4130-5194-11e6-a4ed-d5b496b36652/window {"sessionId": "0ecb4130-5194-11e6-a4ed-d5b496b36652"}
+DEBUG Sun, 24 Jul 2016 19:45:08 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:09 POST http://127.0.0.1:51301/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:09 Finished Request
+INFO Sun, 24 Jul 2016 19:45:09 end of: http://www.templatemonster.com/website-templates.php?page=2
+INFO Sun, 24 Jul 2016 19:45:09 73 waited: 2 done
+INFO Sun, 24 Jul 2016 19:45:09 start to do: ['http://www.templatemonster.com/website-templates/santori-website-template-59098.html']
+DEBUG Sun, 24 Jul 2016 19:45:09 POST http://127.0.0.1:51301/wd/hub/session/12c244f0-5194-11e6-85ed-21924260977d/url {"url": "http://www.templatemonster.com/website-templates/santori-website-template-59098.html", "sessionId": "12c244f0-5194-11e6-85ed-21924260977d"}
+DEBUG Sun, 24 Jul 2016 19:45:16 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:16 GET http://127.0.0.1:51301/wd/hub/session/12c244f0-5194-11e6-85ed-21924260977d/source {"sessionId": "12c244f0-5194-11e6-85ed-21924260977d"}
+DEBUG Sun, 24 Jul 2016 19:45:16 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:16 DELETE http://127.0.0.1:51301/wd/hub/session/12c244f0-5194-11e6-85ed-21924260977d/window {"sessionId": "12c244f0-5194-11e6-85ed-21924260977d"}
+DEBUG Sun, 24 Jul 2016 19:45:16 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:17 POST http://127.0.0.1:52605/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:17 Finished Request
+INFO Sun, 24 Jul 2016 19:45:17 end of: http://www.templatemonster.com/website-templates/santori-website-template-59098.html
+INFO Sun, 24 Jul 2016 19:45:17 72 waited: 3 done
+INFO Sun, 24 Jul 2016 19:45:17 start to do: ['http://www.templatemonster.com/website-templates/design-studio-responsive-website-template-57841.html']
+DEBUG Sun, 24 Jul 2016 19:45:17 POST http://127.0.0.1:52605/wd/hub/session/17771a70-5194-11e6-995a-639bf5fd9a81/url {"url": "http://www.templatemonster.com/website-templates/design-studio-responsive-website-template-57841.html", "sessionId": "17771a70-5194-11e6-995a-639bf5fd9a81"}
+DEBUG Sun, 24 Jul 2016 19:45:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:29 GET http://127.0.0.1:52605/wd/hub/session/17771a70-5194-11e6-995a-639bf5fd9a81/source {"sessionId": "17771a70-5194-11e6-995a-639bf5fd9a81"}
+DEBUG Sun, 24 Jul 2016 19:45:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:29 DELETE http://127.0.0.1:52605/wd/hub/session/17771a70-5194-11e6-995a-639bf5fd9a81/window {"sessionId": "17771a70-5194-11e6-995a-639bf5fd9a81"}
+DEBUG Sun, 24 Jul 2016 19:45:29 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:30 POST http://127.0.0.1:53536/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:31 Finished Request
+INFO Sun, 24 Jul 2016 19:45:31 end of: http://www.templatemonster.com/website-templates/design-studio-responsive-website-template-57841.html
+INFO Sun, 24 Jul 2016 19:45:31 71 waited: 4 done
+INFO Sun, 24 Jul 2016 19:45:31 start to do: ['http://www.templatemonster.com/website-templates/science-responsive-website-template-60023.html']
+DEBUG Sun, 24 Jul 2016 19:45:31 POST http://127.0.0.1:53536/wd/hub/session/1faed520-5194-11e6-8601-9d6bf0e3c7be/url {"url": "http://www.templatemonster.com/website-templates/science-responsive-website-template-60023.html", "sessionId": "1faed520-5194-11e6-8601-9d6bf0e3c7be"}
+DEBUG Sun, 24 Jul 2016 19:45:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:37 GET http://127.0.0.1:53536/wd/hub/session/1faed520-5194-11e6-8601-9d6bf0e3c7be/source {"sessionId": "1faed520-5194-11e6-8601-9d6bf0e3c7be"}
+DEBUG Sun, 24 Jul 2016 19:45:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:37 DELETE http://127.0.0.1:53536/wd/hub/session/1faed520-5194-11e6-8601-9d6bf0e3c7be/window {"sessionId": "1faed520-5194-11e6-8601-9d6bf0e3c7be"}
+DEBUG Sun, 24 Jul 2016 19:45:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:38 POST http://127.0.0.1:50647/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:38 Finished Request
+INFO Sun, 24 Jul 2016 19:45:38 end of: http://www.templatemonster.com/website-templates/science-responsive-website-template-60023.html
+INFO Sun, 24 Jul 2016 19:45:38 70 waited: 5 done
+INFO Sun, 24 Jul 2016 19:45:38 start to do: ['http://www.templatemonster.com/website-templates/dentistry-responsive-website-template-60036.html']
+DEBUG Sun, 24 Jul 2016 19:45:38 POST http://127.0.0.1:50647/wd/hub/session/24363200-5194-11e6-9dd5-c94635ef5b59/url {"url": "http://www.templatemonster.com/website-templates/dentistry-responsive-website-template-60036.html", "sessionId": "24363200-5194-11e6-9dd5-c94635ef5b59"}
+DEBUG Sun, 24 Jul 2016 19:45:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:49 GET http://127.0.0.1:50647/wd/hub/session/24363200-5194-11e6-9dd5-c94635ef5b59/source {"sessionId": "24363200-5194-11e6-9dd5-c94635ef5b59"}
+DEBUG Sun, 24 Jul 2016 19:45:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:49 DELETE http://127.0.0.1:50647/wd/hub/session/24363200-5194-11e6-9dd5-c94635ef5b59/window {"sessionId": "24363200-5194-11e6-9dd5-c94635ef5b59"}
+DEBUG Sun, 24 Jul 2016 19:45:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:50 POST http://127.0.0.1:58686/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:50 Finished Request
+INFO Sun, 24 Jul 2016 19:45:50 end of: http://www.templatemonster.com/website-templates/dentistry-responsive-website-template-60036.html
+INFO Sun, 24 Jul 2016 19:45:50 69 waited: 6 done
+INFO Sun, 24 Jul 2016 19:45:50 start to do: ['http://www.templatemonster.com/website-templates/moving-company-responsive-website-template-58973.html']
+DEBUG Sun, 24 Jul 2016 19:45:50 POST http://127.0.0.1:58686/wd/hub/session/2b351e90-5194-11e6-99a9-8db5ef3a5f69/url {"url": "http://www.templatemonster.com/website-templates/moving-company-responsive-website-template-58973.html", "sessionId": "2b351e90-5194-11e6-99a9-8db5ef3a5f69"}
+DEBUG Sun, 24 Jul 2016 19:45:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:58 GET http://127.0.0.1:58686/wd/hub/session/2b351e90-5194-11e6-99a9-8db5ef3a5f69/source {"sessionId": "2b351e90-5194-11e6-99a9-8db5ef3a5f69"}
+DEBUG Sun, 24 Jul 2016 19:45:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:58 DELETE http://127.0.0.1:58686/wd/hub/session/2b351e90-5194-11e6-99a9-8db5ef3a5f69/window {"sessionId": "2b351e90-5194-11e6-99a9-8db5ef3a5f69"}
+DEBUG Sun, 24 Jul 2016 19:45:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:45:59 POST http://127.0.0.1:33515/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:45:59 Finished Request
+INFO Sun, 24 Jul 2016 19:45:59 end of: http://www.templatemonster.com/website-templates/moving-company-responsive-website-template-58973.html
+INFO Sun, 24 Jul 2016 19:45:59 68 waited: 7 done
+INFO Sun, 24 Jul 2016 19:45:59 start to do: ['http://www.templatemonster.com/wordpress-themes/asian-restaurant-responsive-wordpress-theme-58926.html']
+DEBUG Sun, 24 Jul 2016 19:45:59 POST http://127.0.0.1:33515/wd/hub/session/30cefce0-5194-11e6-9f3c-e7dd0dd64c89/url {"url": "http://www.templatemonster.com/wordpress-themes/asian-restaurant-responsive-wordpress-theme-58926.html", "sessionId": "30cefce0-5194-11e6-9f3c-e7dd0dd64c89"}
+DEBUG Sun, 24 Jul 2016 19:46:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:05 GET http://127.0.0.1:33515/wd/hub/session/30cefce0-5194-11e6-9f3c-e7dd0dd64c89/source {"sessionId": "30cefce0-5194-11e6-9f3c-e7dd0dd64c89"}
+DEBUG Sun, 24 Jul 2016 19:46:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:05 DELETE http://127.0.0.1:33515/wd/hub/session/30cefce0-5194-11e6-9f3c-e7dd0dd64c89/window {"sessionId": "30cefce0-5194-11e6-9f3c-e7dd0dd64c89"}
+DEBUG Sun, 24 Jul 2016 19:46:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:06 POST http://127.0.0.1:54045/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:06 Finished Request
+INFO Sun, 24 Jul 2016 19:46:06 end of: http://www.templatemonster.com/wordpress-themes/asian-restaurant-responsive-wordpress-theme-58926.html
+INFO Sun, 24 Jul 2016 19:46:06 67 waited: 8 done
+INFO Sun, 24 Jul 2016 19:46:06 start to do: ['http://www.templatemonster.com/website-templates/home-repairs-responsive-website-template-58972.html']
+DEBUG Sun, 24 Jul 2016 19:46:06 POST http://127.0.0.1:54045/wd/hub/session/34ca1f50-5194-11e6-bcac-a77da71d142c/url {"url": "http://www.templatemonster.com/website-templates/home-repairs-responsive-website-template-58972.html", "sessionId": "34ca1f50-5194-11e6-bcac-a77da71d142c"}
+DEBUG Sun, 24 Jul 2016 19:46:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:12 GET http://127.0.0.1:54045/wd/hub/session/34ca1f50-5194-11e6-bcac-a77da71d142c/source {"sessionId": "34ca1f50-5194-11e6-bcac-a77da71d142c"}
+DEBUG Sun, 24 Jul 2016 19:46:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:12 DELETE http://127.0.0.1:54045/wd/hub/session/34ca1f50-5194-11e6-bcac-a77da71d142c/window {"sessionId": "34ca1f50-5194-11e6-bcac-a77da71d142c"}
+DEBUG Sun, 24 Jul 2016 19:46:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:13 POST http://127.0.0.1:58295/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:13 Finished Request
+INFO Sun, 24 Jul 2016 19:46:13 end of: http://www.templatemonster.com/website-templates/home-repairs-responsive-website-template-58972.html
+INFO Sun, 24 Jul 2016 19:46:13 66 waited: 9 done
+INFO Sun, 24 Jul 2016 19:46:13 start to do: ['http://www.templatemonster.com/website-templates/writer-author-responsive-website-template-59101.html']
+DEBUG Sun, 24 Jul 2016 19:46:13 POST http://127.0.0.1:58295/wd/hub/session/3910a2a0-5194-11e6-ba01-edd64c183d67/url {"url": "http://www.templatemonster.com/website-templates/writer-author-responsive-website-template-59101.html", "sessionId": "3910a2a0-5194-11e6-ba01-edd64c183d67"}
+DEBUG Sun, 24 Jul 2016 19:46:18 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:18 GET http://127.0.0.1:58295/wd/hub/session/3910a2a0-5194-11e6-ba01-edd64c183d67/source {"sessionId": "3910a2a0-5194-11e6-ba01-edd64c183d67"}
+DEBUG Sun, 24 Jul 2016 19:46:18 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:18 DELETE http://127.0.0.1:58295/wd/hub/session/3910a2a0-5194-11e6-ba01-edd64c183d67/window {"sessionId": "3910a2a0-5194-11e6-ba01-edd64c183d67"}
+DEBUG Sun, 24 Jul 2016 19:46:18 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:19 POST http://127.0.0.1:50507/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:19 Finished Request
+INFO Sun, 24 Jul 2016 19:46:19 end of: http://www.templatemonster.com/website-templates/writer-author-responsive-website-template-59101.html
+INFO Sun, 24 Jul 2016 19:46:19 65 waited: 10 done
+INFO Sun, 24 Jul 2016 19:46:19 start to do: ['http://www.templatemonster.com/woocommerce-themes/apparel-responsive-woocommerce-theme-59038.html']
+DEBUG Sun, 24 Jul 2016 19:46:19 POST http://127.0.0.1:50507/wd/hub/session/3cde9a90-5194-11e6-965a-c5a7629a58cb/url {"url": "http://www.templatemonster.com/woocommerce-themes/apparel-responsive-woocommerce-theme-59038.html", "sessionId": "3cde9a90-5194-11e6-965a-c5a7629a58cb"}
+DEBUG Sun, 24 Jul 2016 19:46:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:31 GET http://127.0.0.1:50507/wd/hub/session/3cde9a90-5194-11e6-965a-c5a7629a58cb/source {"sessionId": "3cde9a90-5194-11e6-965a-c5a7629a58cb"}
+DEBUG Sun, 24 Jul 2016 19:46:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:31 DELETE http://127.0.0.1:50507/wd/hub/session/3cde9a90-5194-11e6-965a-c5a7629a58cb/window {"sessionId": "3cde9a90-5194-11e6-965a-c5a7629a58cb"}
+DEBUG Sun, 24 Jul 2016 19:46:31 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:32 POST http://127.0.0.1:40251/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:32 Finished Request
+INFO Sun, 24 Jul 2016 19:46:32 end of: http://www.templatemonster.com/woocommerce-themes/apparel-responsive-woocommerce-theme-59038.html
+INFO Sun, 24 Jul 2016 19:46:32 64 waited: 11 done
+INFO Sun, 24 Jul 2016 19:46:32 start to do: ['http://www.templatemonster.com/website-templates/energo-website-template-58413.html']
+DEBUG Sun, 24 Jul 2016 19:46:32 POST http://127.0.0.1:40251/wd/hub/session/442e6640-5194-11e6-9b26-dd5a6c92e72d/url {"url": "http://www.templatemonster.com/website-templates/energo-website-template-58413.html", "sessionId": "442e6640-5194-11e6-9b26-dd5a6c92e72d"}
+DEBUG Sun, 24 Jul 2016 19:46:38 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:38 GET http://127.0.0.1:40251/wd/hub/session/442e6640-5194-11e6-9b26-dd5a6c92e72d/source {"sessionId": "442e6640-5194-11e6-9b26-dd5a6c92e72d"}
+DEBUG Sun, 24 Jul 2016 19:46:38 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:38 DELETE http://127.0.0.1:40251/wd/hub/session/442e6640-5194-11e6-9b26-dd5a6c92e72d/window {"sessionId": "442e6640-5194-11e6-9b26-dd5a6c92e72d"}
+DEBUG Sun, 24 Jul 2016 19:46:38 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:39 POST http://127.0.0.1:60491/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:39 Finished Request
+INFO Sun, 24 Jul 2016 19:46:39 end of: http://www.templatemonster.com/website-templates/energo-website-template-58413.html
+INFO Sun, 24 Jul 2016 19:46:39 63 waited: 12 done
+INFO Sun, 24 Jul 2016 19:46:39 start to do: ['http://www.templatemonster.com/website-templates/cafe-and-restaurant-responsive-website-template-58360.html']
+DEBUG Sun, 24 Jul 2016 19:46:39 POST http://127.0.0.1:60491/wd/hub/session/48c1f820-5194-11e6-acf1-61072afa26fa/url {"url": "http://www.templatemonster.com/website-templates/cafe-and-restaurant-responsive-website-template-58360.html", "sessionId": "48c1f820-5194-11e6-acf1-61072afa26fa"}
+DEBUG Sun, 24 Jul 2016 19:46:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:54 GET http://127.0.0.1:60491/wd/hub/session/48c1f820-5194-11e6-acf1-61072afa26fa/source {"sessionId": "48c1f820-5194-11e6-acf1-61072afa26fa"}
+DEBUG Sun, 24 Jul 2016 19:46:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:54 DELETE http://127.0.0.1:60491/wd/hub/session/48c1f820-5194-11e6-acf1-61072afa26fa/window {"sessionId": "48c1f820-5194-11e6-acf1-61072afa26fa"}
+DEBUG Sun, 24 Jul 2016 19:46:54 Finished Request
+DEBUG Sun, 24 Jul 2016 19:46:55 POST http://127.0.0.1:53008/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:46:55 Finished Request
+INFO Sun, 24 Jul 2016 19:46:55 end of: http://www.templatemonster.com/website-templates/cafe-and-restaurant-responsive-website-template-58360.html
+INFO Sun, 24 Jul 2016 19:46:55 62 waited: 13 done
+INFO Sun, 24 Jul 2016 19:46:55 start to do: ['http://www.templatemonster.com/website-templates/law-firm-responsive-website-template-58966.html']
+DEBUG Sun, 24 Jul 2016 19:46:55 POST http://127.0.0.1:53008/wd/hub/session/52169480-5194-11e6-a6a6-7ffb4919ce3a/url {"url": "http://www.templatemonster.com/website-templates/law-firm-responsive-website-template-58966.html", "sessionId": "52169480-5194-11e6-a6a6-7ffb4919ce3a"}
+DEBUG Sun, 24 Jul 2016 19:47:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:05 GET http://127.0.0.1:53008/wd/hub/session/52169480-5194-11e6-a6a6-7ffb4919ce3a/source {"sessionId": "52169480-5194-11e6-a6a6-7ffb4919ce3a"}
+DEBUG Sun, 24 Jul 2016 19:47:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:05 DELETE http://127.0.0.1:53008/wd/hub/session/52169480-5194-11e6-a6a6-7ffb4919ce3a/window {"sessionId": "52169480-5194-11e6-a6a6-7ffb4919ce3a"}
+DEBUG Sun, 24 Jul 2016 19:47:05 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:06 POST http://127.0.0.1:39301/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:47:07 Finished Request
+INFO Sun, 24 Jul 2016 19:47:07 end of: http://www.templatemonster.com/website-templates/law-firm-responsive-website-template-58966.html
+INFO Sun, 24 Jul 2016 19:47:07 61 waited: 14 done
+INFO Sun, 24 Jul 2016 19:47:07 start to do: ['http://www.templatemonster.com/website-templates/real-estate-agency-responsive-website-template-58726.html']
+DEBUG Sun, 24 Jul 2016 19:47:07 POST http://127.0.0.1:39301/wd/hub/session/58e85690-5194-11e6-b608-410eda05e061/url {"url": "http://www.templatemonster.com/website-templates/real-estate-agency-responsive-website-template-58726.html", "sessionId": "58e85690-5194-11e6-b608-410eda05e061"}
+DEBUG Sun, 24 Jul 2016 19:47:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:15 GET http://127.0.0.1:39301/wd/hub/session/58e85690-5194-11e6-b608-410eda05e061/source {"sessionId": "58e85690-5194-11e6-b608-410eda05e061"}
+DEBUG Sun, 24 Jul 2016 19:47:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:15 DELETE http://127.0.0.1:39301/wd/hub/session/58e85690-5194-11e6-b608-410eda05e061/window {"sessionId": "58e85690-5194-11e6-b608-410eda05e061"}
+DEBUG Sun, 24 Jul 2016 19:47:15 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:16 POST http://127.0.0.1:45865/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:47:16 Finished Request
+INFO Sun, 24 Jul 2016 19:47:16 end of: http://www.templatemonster.com/website-templates/real-estate-agency-responsive-website-template-58726.html
+INFO Sun, 24 Jul 2016 19:47:16 60 waited: 15 done
+INFO Sun, 24 Jul 2016 19:47:16 start to do: ['http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html']
+DEBUG Sun, 24 Jul 2016 19:47:16 POST http://127.0.0.1:45865/wd/hub/session/5ebf16d0-5194-11e6-b382-83d70609a73d/url {"url": "http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html", "sessionId": "5ebf16d0-5194-11e6-b382-83d70609a73d"}
+DEBUG Sun, 24 Jul 2016 19:47:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:24 GET http://127.0.0.1:45865/wd/hub/session/5ebf16d0-5194-11e6-b382-83d70609a73d/source {"sessionId": "5ebf16d0-5194-11e6-b382-83d70609a73d"}
+DEBUG Sun, 24 Jul 2016 19:47:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:24 DELETE http://127.0.0.1:45865/wd/hub/session/5ebf16d0-5194-11e6-b382-83d70609a73d/window {"sessionId": "5ebf16d0-5194-11e6-b382-83d70609a73d"}
+DEBUG Sun, 24 Jul 2016 19:47:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:25 POST http://127.0.0.1:46797/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:47:25 Finished Request
+INFO Sun, 24 Jul 2016 19:47:25 end of: http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html
+INFO Sun, 24 Jul 2016 19:47:25 59 waited: 16 done
+INFO Sun, 24 Jul 2016 19:47:25 start to do: ['http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html#tab-reviews']
+DEBUG Sun, 24 Jul 2016 19:47:25 POST http://127.0.0.1:46797/wd/hub/session/63f3a3a0-5194-11e6-9f51-43e1a5cde230/url {"url": "http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html#tab-reviews", "sessionId": "63f3a3a0-5194-11e6-9f51-43e1a5cde230"}
+DEBUG Sun, 24 Jul 2016 19:47:41 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:41 GET http://127.0.0.1:46797/wd/hub/session/63f3a3a0-5194-11e6-9f51-43e1a5cde230/source {"sessionId": "63f3a3a0-5194-11e6-9f51-43e1a5cde230"}
+DEBUG Sun, 24 Jul 2016 19:47:41 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:41 DELETE http://127.0.0.1:46797/wd/hub/session/63f3a3a0-5194-11e6-9f51-43e1a5cde230/window {"sessionId": "63f3a3a0-5194-11e6-9f51-43e1a5cde230"}
+DEBUG Sun, 24 Jul 2016 19:47:41 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:42 POST http://127.0.0.1:38316/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:47:42 Finished Request
+INFO Sun, 24 Jul 2016 19:47:42 end of: http://www.templatemonster.com/website-templates/business-responsive-website-template-57551.html#tab-reviews
+INFO Sun, 24 Jul 2016 19:47:42 58 waited: 17 done
+INFO Sun, 24 Jul 2016 19:47:42 start to do: ['http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html']
+DEBUG Sun, 24 Jul 2016 19:47:42 POST http://127.0.0.1:38316/wd/hub/session/6e469d30-5194-11e6-9584-09724a1617fe/url {"url": "http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html", "sessionId": "6e469d30-5194-11e6-9584-09724a1617fe"}
+DEBUG Sun, 24 Jul 2016 19:47:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:49 GET http://127.0.0.1:38316/wd/hub/session/6e469d30-5194-11e6-9584-09724a1617fe/source {"sessionId": "6e469d30-5194-11e6-9584-09724a1617fe"}
+DEBUG Sun, 24 Jul 2016 19:47:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:49 DELETE http://127.0.0.1:38316/wd/hub/session/6e469d30-5194-11e6-9584-09724a1617fe/window {"sessionId": "6e469d30-5194-11e6-9584-09724a1617fe"}
+DEBUG Sun, 24 Jul 2016 19:47:49 Finished Request
+DEBUG Sun, 24 Jul 2016 19:47:50 POST http://127.0.0.1:48754/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:47:50 Finished Request
+INFO Sun, 24 Jul 2016 19:47:50 end of: http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html
+INFO Sun, 24 Jul 2016 19:47:50 57 waited: 18 done
+INFO Sun, 24 Jul 2016 19:47:50 start to do: ['http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html#tab-reviews']
+DEBUG Sun, 24 Jul 2016 19:47:50 POST http://127.0.0.1:48754/wd/hub/session/72e24560-5194-11e6-83ac-31151b507bfa/url {"url": "http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html#tab-reviews", "sessionId": "72e24560-5194-11e6-83ac-31151b507bfa"}
+DEBUG Sun, 24 Jul 2016 19:48:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:01 GET http://127.0.0.1:48754/wd/hub/session/72e24560-5194-11e6-83ac-31151b507bfa/source {"sessionId": "72e24560-5194-11e6-83ac-31151b507bfa"}
+DEBUG Sun, 24 Jul 2016 19:48:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:01 DELETE http://127.0.0.1:48754/wd/hub/session/72e24560-5194-11e6-83ac-31151b507bfa/window {"sessionId": "72e24560-5194-11e6-83ac-31151b507bfa"}
+DEBUG Sun, 24 Jul 2016 19:48:01 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:02 POST http://127.0.0.1:55876/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:02 Finished Request
+INFO Sun, 24 Jul 2016 19:48:02 end of: http://www.templatemonster.com/website-templates/hosting-responsive-website-template-58733.html#tab-reviews
+INFO Sun, 24 Jul 2016 19:48:02 56 waited: 19 done
+INFO Sun, 24 Jul 2016 19:48:02 start to do: ['http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html']
+DEBUG Sun, 24 Jul 2016 19:48:02 POST http://127.0.0.1:55876/wd/hub/session/79efff00-5194-11e6-8e88-6de4311185ac/url {"url": "http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html", "sessionId": "79efff00-5194-11e6-8e88-6de4311185ac"}
+DEBUG Sun, 24 Jul 2016 19:48:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:14 GET http://127.0.0.1:55876/wd/hub/session/79efff00-5194-11e6-8e88-6de4311185ac/source {"sessionId": "79efff00-5194-11e6-8e88-6de4311185ac"}
+DEBUG Sun, 24 Jul 2016 19:48:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:14 DELETE http://127.0.0.1:55876/wd/hub/session/79efff00-5194-11e6-8e88-6de4311185ac/window {"sessionId": "79efff00-5194-11e6-8e88-6de4311185ac"}
+DEBUG Sun, 24 Jul 2016 19:48:14 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:15 POST http://127.0.0.1:55894/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:15 Finished Request
+INFO Sun, 24 Jul 2016 19:48:16 end of: http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html
+INFO Sun, 24 Jul 2016 19:48:16 55 waited: 20 done
+INFO Sun, 24 Jul 2016 19:48:16 start to do: ['http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html#tab-reviews']
+DEBUG Sun, 24 Jul 2016 19:48:16 POST http://127.0.0.1:55894/wd/hub/session/82071250-5194-11e6-afa2-0dee8ce74bf1/url {"url": "http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html#tab-reviews", "sessionId": "82071250-5194-11e6-afa2-0dee8ce74bf1"}
+DEBUG Sun, 24 Jul 2016 19:48:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:24 GET http://127.0.0.1:55894/wd/hub/session/82071250-5194-11e6-afa2-0dee8ce74bf1/source {"sessionId": "82071250-5194-11e6-afa2-0dee8ce74bf1"}
+DEBUG Sun, 24 Jul 2016 19:48:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:24 DELETE http://127.0.0.1:55894/wd/hub/session/82071250-5194-11e6-afa2-0dee8ce74bf1/window {"sessionId": "82071250-5194-11e6-afa2-0dee8ce74bf1"}
+DEBUG Sun, 24 Jul 2016 19:48:24 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:25 POST http://127.0.0.1:44080/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:25 Finished Request
+INFO Sun, 24 Jul 2016 19:48:25 end of: http://www.templatemonster.com/magento-themes/lingerie-responsive-magento-theme-58902.html#tab-reviews
+INFO Sun, 24 Jul 2016 19:48:25 54 waited: 21 done
+INFO Sun, 24 Jul 2016 19:48:25 start to do: ['http://www.templatemonster.com/website-templates/b-co-website-template-58531.html']
+DEBUG Sun, 24 Jul 2016 19:48:25 POST http://127.0.0.1:44080/wd/hub/session/87765e30-5194-11e6-8a1a-9bfc32f6ace4/url {"url": "http://www.templatemonster.com/website-templates/b-co-website-template-58531.html", "sessionId": "87765e30-5194-11e6-8a1a-9bfc32f6ace4"}
+DEBUG Sun, 24 Jul 2016 19:48:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:37 GET http://127.0.0.1:44080/wd/hub/session/87765e30-5194-11e6-8a1a-9bfc32f6ace4/source {"sessionId": "87765e30-5194-11e6-8a1a-9bfc32f6ace4"}
+DEBUG Sun, 24 Jul 2016 19:48:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:37 DELETE http://127.0.0.1:44080/wd/hub/session/87765e30-5194-11e6-8a1a-9bfc32f6ace4/window {"sessionId": "87765e30-5194-11e6-8a1a-9bfc32f6ace4"}
+DEBUG Sun, 24 Jul 2016 19:48:37 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:38 POST http://127.0.0.1:35279/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:38 Finished Request
+INFO Sun, 24 Jul 2016 19:48:38 end of: http://www.templatemonster.com/website-templates/b-co-website-template-58531.html
+INFO Sun, 24 Jul 2016 19:48:38 53 waited: 22 done
+INFO Sun, 24 Jul 2016 19:48:38 start to do: ['http://www.templatemonster.com/website-templates/facilis-website-template-58964.html']
+DEBUG Sun, 24 Jul 2016 19:48:38 POST http://127.0.0.1:35279/wd/hub/session/8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3/url {"url": "http://www.templatemonster.com/website-templates/facilis-website-template-58964.html", "sessionId": "8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3"}
+DEBUG Sun, 24 Jul 2016 19:48:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:43 GET http://127.0.0.1:35279/wd/hub/session/8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3/source {"sessionId": "8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3"}
+DEBUG Sun, 24 Jul 2016 19:48:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:43 DELETE http://127.0.0.1:35279/wd/hub/session/8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3/window {"sessionId": "8f38e8e0-5194-11e6-92ff-cd6d8e74c5d3"}
+DEBUG Sun, 24 Jul 2016 19:48:43 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:44 POST http://127.0.0.1:41602/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:45 Finished Request
+INFO Sun, 24 Jul 2016 19:48:45 end of: http://www.templatemonster.com/website-templates/facilis-website-template-58964.html
+INFO Sun, 24 Jul 2016 19:48:45 52 waited: 23 done
+INFO Sun, 24 Jul 2016 19:48:45 start to do: ['http://www.templatemonster.com/website-templates/facilis-website-template-58964.html#tab-reviews']
+DEBUG Sun, 24 Jul 2016 19:48:45 POST http://127.0.0.1:41602/wd/hub/session/93517e60-5194-11e6-84e3-5bc19a6ee125/url {"url": "http://www.templatemonster.com/website-templates/facilis-website-template-58964.html#tab-reviews", "sessionId": "93517e60-5194-11e6-84e3-5bc19a6ee125"}
+DEBUG Sun, 24 Jul 2016 19:48:51 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:51 GET http://127.0.0.1:41602/wd/hub/session/93517e60-5194-11e6-84e3-5bc19a6ee125/source {"sessionId": "93517e60-5194-11e6-84e3-5bc19a6ee125"}
+DEBUG Sun, 24 Jul 2016 19:48:51 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:51 DELETE http://127.0.0.1:41602/wd/hub/session/93517e60-5194-11e6-84e3-5bc19a6ee125/window {"sessionId": "93517e60-5194-11e6-84e3-5bc19a6ee125"}
+DEBUG Sun, 24 Jul 2016 19:48:51 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:52 POST http://127.0.0.1:39621/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:52 Finished Request
+INFO Sun, 24 Jul 2016 19:48:52 end of: http://www.templatemonster.com/website-templates/facilis-website-template-58964.html#tab-reviews
+INFO Sun, 24 Jul 2016 19:48:52 51 waited: 24 done
+INFO Sun, 24 Jul 2016 19:48:52 start to do: ['http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html']
+DEBUG Sun, 24 Jul 2016 19:48:52 POST http://127.0.0.1:39621/wd/hub/session/9806c910-5194-11e6-8c94-d1f3c354e44d/url {"url": "http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html", "sessionId": "9806c910-5194-11e6-8c94-d1f3c354e44d"}
+DEBUG Sun, 24 Jul 2016 19:48:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:58 GET http://127.0.0.1:39621/wd/hub/session/9806c910-5194-11e6-8c94-d1f3c354e44d/source {"sessionId": "9806c910-5194-11e6-8c94-d1f3c354e44d"}
+DEBUG Sun, 24 Jul 2016 19:48:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:58 DELETE http://127.0.0.1:39621/wd/hub/session/9806c910-5194-11e6-8c94-d1f3c354e44d/window {"sessionId": "9806c910-5194-11e6-8c94-d1f3c354e44d"}
+DEBUG Sun, 24 Jul 2016 19:48:58 Finished Request
+DEBUG Sun, 24 Jul 2016 19:48:59 POST http://127.0.0.1:58120/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:48:59 Finished Request
+INFO Sun, 24 Jul 2016 19:48:59 end of: http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html
+INFO Sun, 24 Jul 2016 19:48:59 50 waited: 25 done
+INFO Sun, 24 Jul 2016 19:48:59 start to do: ['http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html#tab-reviews']
+DEBUG Sun, 24 Jul 2016 19:48:59 POST http://127.0.0.1:58120/wd/hub/session/9c411760-5194-11e6-b3a6-f575e65a8933/url {"url": "http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html#tab-reviews", "sessionId": "9c411760-5194-11e6-b3a6-f575e65a8933"}
+DEBUG Sun, 24 Jul 2016 19:49:11 Finished Request
+DEBUG Sun, 24 Jul 2016 19:49:11 GET http://127.0.0.1:58120/wd/hub/session/9c411760-5194-11e6-b3a6-f575e65a8933/source {"sessionId": "9c411760-5194-11e6-b3a6-f575e65a8933"}
+DEBUG Sun, 24 Jul 2016 19:49:11 Finished Request
+DEBUG Sun, 24 Jul 2016 19:49:12 DELETE http://127.0.0.1:58120/wd/hub/session/9c411760-5194-11e6-b3a6-f575e65a8933/window {"sessionId": "9c411760-5194-11e6-b3a6-f575e65a8933"}
+DEBUG Sun, 24 Jul 2016 19:49:12 Finished Request
+DEBUG Sun, 24 Jul 2016 19:49:13 POST http://127.0.0.1:50690/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "phantomjs.page.settings.resourceTimeout": 1000, "phantomjs.page.settings.loadImages": false, "platform": "ANY", "browserName": "phantomjs", "version": "", "phantomjs.page.settings.userAgent": "faking it"}}
+DEBUG Sun, 24 Jul 2016 19:49:13 Finished Request
+INFO Sun, 24 Jul 2016 19:49:13 end of: http://www.templatemonster.com/website-templates/chisonix-website-template-58331.html#tab-reviews
+INFO Sun, 24 Jul 2016 19:49:13 49 waited: 26 done
+INFO Sun, 24 Jul 2016 19:49:13 start to do: ['http://www.templatemonster.com/website-templates/interior-furniture-responsive-website-template-57902.html']
+DEBUG Sun, 24 Jul 2016 19:49:13 POST http://127.0.0.1:50690/wd/hub/session/a40501a0-5194-11e6-990f-0dbcd4d206aa/url {"url": "http://www.templatemonster.com/website-templates/interior-furniture-responsive-website-template-57902.html", "sessionId": "a40501a0-5194-11e6-990f-0dbcd4d206aa"}

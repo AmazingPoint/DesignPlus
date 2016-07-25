@@ -8,7 +8,7 @@ def addTodo(master):
         加入一批url'''
     urllist = []
     wait_url = master.getWaitList()
-    for i in range(1, 192):
+    for i in range(1, 3):
         url = 'http://www.templatemonster.com/website-templates.php?page=%d' % i
         if not url in wait_url:
             urllist.append(url)
