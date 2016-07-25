@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 from redis import Redis
+import random
 
 rdb = Redis(host='127.0.0.1', port=6379, db=0)
 
@@ -19,3 +20,13 @@ def aPage(page, pre_number_page):
             data = rdb.hgetall(key)
             datas.append(data)
     return datas
+
+
+def aRandom():
+    '''从redis随机获取一个元素'''
+    lenth = rdb.dbsize()
+    keys = rdb.keys()
+    index = random.randint(3,lenth-1)
+    key = keys[index]
+    data = rdb.hgetall(key)
+    return data

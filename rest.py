@@ -22,6 +22,12 @@ def index():
     <br/>param: p=<int>&prep=<int>\
     </br>解释：p为请求的页数，prep为每页资源数量'
 
+@app.route('/designs/random')
+@allow_cross_domain
+def getRandom():
+    data = datasource.aRandom()
+    return fullResponse(R200_OK, data)
+
 
 @app.route('/designs')
 @allow_cross_domain
